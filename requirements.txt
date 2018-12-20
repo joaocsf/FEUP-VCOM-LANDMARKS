@@ -1,0 +1,7 @@
+opencv-python
+matplotlib
+keras
+tensorflow
+keras-resnet
+pillow
+numpy
