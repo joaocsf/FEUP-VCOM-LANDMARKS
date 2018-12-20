@@ -1,7 +1,7 @@
 opencv-python
 matplotlib
 keras
-tenrsorflow-gpu
-keras-rasnet
+tensorflow-gpu
+keras-resnet
 pillow
 numpy
