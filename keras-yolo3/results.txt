@@ -1,0 +1,31 @@
+../dataset/porto-dataset/images/serralves/serralves-0042.jpg 0
+../dataset/porto-dataset/images/serralves/serralves-0106.jpg 0
+../dataset/porto-dataset/images/serralves/serralves-0021.jpg 0
+../dataset/porto-dataset/images/serralves/serralves-0158.jpg 0
+../dataset/porto-dataset/images/serralves/serralves-0125.jpg 0
+../dataset/porto-dataset/images/serralves/serralves-0071.jpg 0
+../dataset/porto-dataset/images/serralves/serralves-0102.jpg 0
+../dataset/porto-dataset/images/serralves/serralves-0124.jpg 0
+../dataset/porto-dataset/images/serralves/serralves-0165.jpg 0
+../dataset/porto-dataset/images/serralves/serralves-0120.jpg 0
+../dataset/porto-dataset/images/serralves/serralves-0172.jpg 0
+../dataset/porto-dataset/images/serralves/serralves-0123.jpg 0
+../dataset/porto-dataset/images/serralves/serralves-0152.jpg 1 0,0,1024,683,serralves,0.16191229
+../dataset/porto-dataset/images/serralves/serralves-0068.jpg 0
+../dataset/porto-dataset/images/serralves/serralves-0054.jpg 0
+../dataset/porto-dataset/images/serralves/serralves-0174.jpg 0
+../dataset/porto-dataset/images/serralves/serralves-0056.jpg 0
+../dataset/porto-dataset/images/serralves/serralves-0180.jpg 0
+../dataset/porto-dataset/images/serralves/serralves-0013.jpg 0
+../dataset/porto-dataset/images/serralves/serralves-0127.jpg 0
+../dataset/porto-dataset/images/serralves/serralves-0163.jpg 0
+../dataset/porto-dataset/images/serralves/serralves-0186.jpg 0
+../dataset/porto-dataset/images/serralves/serralves-0150.jpg 0
+../dataset/porto-dataset/images/serralves/serralves-0004.jpg 0
+../dataset/porto-dataset/images/serralves/serralves-0049.jpg 0
+../dataset/porto-dataset/images/serralves/serralves-0064.jpg 0
+../dataset/porto-dataset/images/serralves/serralves-0141.jpg 0
+../dataset/porto-dataset/images/serralves/serralves-0044.jpg 1 0,0,1024,683,serralves,0.111956604
+../dataset/porto-dataset/images/serralves/serralves-0079.jpg 0
+../dataset/porto-dataset/images/serralves/serralves-0034.jpg 0
+../dataset/porto-dataset/images/serralves/serralves-0175.jpg 0
