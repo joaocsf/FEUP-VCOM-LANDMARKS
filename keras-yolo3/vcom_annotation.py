@@ -4,7 +4,20 @@ import xml.etree.ElementTree as ET
 def roundCoords(str_):
   return str(int(float(str_)+0.5))
 
-def print_it(annotationFilePath, dir_name, files):
+# 0.2 for test, 0.8 for training
+def isForTraining(className, id):
+  classId = classes.index(className)
+  numImgsOfClass = numImagesByClass[classId]
+  id_int = int(id)
+  if id_int <= 0.8 * numImgsOfClass:
+    return True
+  else:
+    return False
+
+def print_it(fls, dir_name, files):
+  trainFile = fls[0]
+  testFile = fls[1]
+
   for i in range(len(files)):
     filepath = dir_name + '/' + files[i]
     if os.path.isdir(filepath):
@@ -12,6 +25,7 @@ def print_it(annotationFilePath, dir_name, files):
     
     className = files[i].split('-')[0]
     classId = classes.index(className)
+    id = files[i].split('-')[1].split('.')[0]
 
     tree = ET.parse(filepath)
     root = tree.getroot()
@@ -26,11 +40,18 @@ def print_it(annotationFilePath, dir_name, files):
       continue
 
     rowStr = pathToImg + ' ' + xMin + ',' + yMin + ',' + xMax + ',' + yMax + ',' + str(classId) + '\n'
-    #print('new row:', rowStr)
-    annotationFilePath.write(rowStr)
+    # print('new row:', rowStr)
+    if isForTraining(className, id):
+      trainFile.write(rowStr)
+      # print('train', id)
+    else:
+      testFile.write(rowStr)
+      # print('test', id)
 
-annotationFilePath = open('train.txt', 'w')
+trainFile = open('train.txt', 'w')
+testFile = open('test.txt', 'w')
 annotationsPath = '../dataset/porto-dataset/annotations'
 imagesPath = '../dataset/porto-dataset/images'
 classes = ['arrabida', 'camara', 'clerigos', 'musica', 'serralves']
-os.path.walk(annotationsPath, print_it, annotationFilePath)
+numImagesByClass = [521, 452, 575, 325, 205]
+os.path.walk(annotationsPath, print_it, [trainFile, testFile])
