@@ -5,3 +5,4 @@ tensorflow-gpu
 keras-resnet
 pillow
 numpy
+pandas_ml
