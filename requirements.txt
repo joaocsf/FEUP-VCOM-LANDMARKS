@@ -6,3 +6,6 @@ keras-resnet
 pillow
 numpy
 pandas_ml
+pandas
+sklearn
+seaborn
