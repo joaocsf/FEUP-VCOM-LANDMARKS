@@ -4,7 +4,7 @@ from PIL import Image
 
 def main():
   resultsFile = open('results.txt', 'w')
-  with open('test.txt') as f:
+  with open('test_yolo.txt') as f:
     lines = f.readlines()
   
   yolo = YOLO()  

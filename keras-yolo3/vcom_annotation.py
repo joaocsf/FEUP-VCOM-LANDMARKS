@@ -14,7 +14,7 @@ def isForTraining(className, id):
   else:
     return False
 
-def print_it(fls, dir_name, files):
+def splitFilesForTrainAndTest(fls, dir_name, files):
   trainFile = fls[0]
   testFile = fls[1]
 
@@ -48,7 +48,7 @@ def print_it(fls, dir_name, files):
       testFile.write(rowStr)
       # print('test', id)
 
-def addNoneImgsToTestFile(trainFile, testFile):
+def addNoneImgsBOW(trainFile, testFile):
   noneImagesPath = '../dataset/porto-dataset/images/none'
   for subdir, dirs, files in os.walk(noneImagesPath):
     numImgs = len(files)
@@ -62,8 +62,18 @@ def addNoneImgsToTestFile(trainFile, testFile):
 
       id += 1
 
-trainFile = open('train.txt', 'w')
-testFile = open('test.txt', 'w')
+def addNoneImgsToTestFileYolo(trainFile, testFile):
+  noneImagesPath = '../dataset/porto-dataset/images/none'
+  for subdir, dirs, files in os.walk(noneImagesPath):
+    for file in files:
+      imgPath = os.path.join(subdir, file)
+      testFile.write(imgPath + '\n')
+
+
+#trainFile = open('train.txt', 'w')
+#testFile = open('test.txt', 'w')
+trainFile = open('train_yolo.txt', 'w')
+testFile = open('test_yolo.txt', 'w')
 annotationsPath = '../dataset/porto-dataset/annotations'
 imagesPath = '../dataset/porto-dataset/images'
 classes = ['arrabida', 'camara', 'clerigos', 'musica', 'serralves']
@@ -72,5 +82,6 @@ for directory, dirnames, filenames in os.walk(annotationsPath):
 	for dirname in dirnames:
 		dir = os.path.join(directory, dirname)
 		files = os.listdir(dir)
-		print_it([trainFile, testFile], dir, files)
-addNoneImgsToTestFile(trainFile, testFile)
+		splitFilesForTrainAndTest([trainFile, testFile], dir, files)
+# addNoneImgsBOW(trainFile, testFile)
+addNoneImgsToTestFileYolo(trainFile, testFile)
