@@ -62,6 +62,9 @@ annotationsPath = '../dataset/porto-dataset/annotations'
 imagesPath = '../dataset/porto-dataset/images'
 classes = ['arrabida', 'camara', 'clerigos', 'musica', 'serralves']
 numImagesByClass = [521, 452, 575, 325, 205]
-
-os.path.walk(annotationsPath, print_it, [trainFile, testFile])
+for directory, dirnames, filenames in os.walk(annotationsPath):
+	for dirname in dirnames:
+		dir = os.path.join(directory, dirname)
+		files = os.listdir(dir)
+		print_it([trainFile, testFile], dir, files)
 addNoneImgsToTestFile(testFile)
