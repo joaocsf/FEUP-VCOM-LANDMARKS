@@ -48,10 +48,20 @@ def print_it(fls, dir_name, files):
       testFile.write(rowStr)
       # print('test', id)
 
+def addNoneImgsToTestFile(testFile):
+  noneImagesPath = '../dataset/porto-dataset/images/none'
+  for subdir, dirs, files in os.walk(noneImagesPath):
+    for file in files:
+      imgPath = os.path.join(subdir, file)
+      
+      testFile.write(imgPath + '\n')
+
 trainFile = open('train.txt', 'w')
 testFile = open('test.txt', 'w')
 annotationsPath = '../dataset/porto-dataset/annotations'
 imagesPath = '../dataset/porto-dataset/images'
 classes = ['arrabida', 'camara', 'clerigos', 'musica', 'serralves']
 numImagesByClass = [521, 452, 575, 325, 205]
+
 os.path.walk(annotationsPath, print_it, [trainFile, testFile])
+addNoneImgsToTestFile(testFile)
