@@ -43,9 +43,14 @@ class MonumentClassifier:
         path, box = line.split(' ')
         safe_name = path_to_cache(path)
         box = [int(x) for x in box.split(',')]
+        class_id = box[4]
 
         start_time=time.time()  
 
+        print(class_id)
+
+        if(class_id == 5):
+          box = None
         kp, descriptors, class_id = self.compute_features(path, safe_name, box)
 
         if len(descriptors) == 0: continue
@@ -101,7 +106,8 @@ class MonumentClassifier:
         class_id = box[4]
 
         start_time=time.time()  
-
+        if(class_id == 5):
+          box = None
         descriptor = self.compute_descriptor(path, safe_name, box)
 
         if descriptor is None: continue
@@ -158,6 +164,9 @@ class MonumentClassifier:
 
         start_time=time.time()  
 
+        if(class_id == 5):
+          box = None
+
         descriptor = self.compute_descriptor(path, safe_name, None)
 
         if descriptor is None: continue
@@ -207,7 +216,7 @@ class MonumentClassifier:
       return load_features(path)
     
     keypoints, descriptors = extract_features(image_path, box)
-    class_id = box[4] if not box is None else -1    
+    class_id = box[4] if not box is None else 5    
 
     store_features(path, keypoints, descriptors, class_id)
     return (keypoints, descriptors, class_id)
@@ -226,7 +235,6 @@ def path_to_cache(filename):
     return re.sub(r'[\.\/\\]+', '_', filename)
 
 def extract_features(image_path, box):
-
 
   image = cv.imread(image_path, cv.IMREAD_GRAYSCALE)
 
@@ -249,6 +257,9 @@ def extract_features(image_path, box):
       
       keypoints.append(kp)
       descriptors.append(des[index])
+  else:
+    keypoints = kp
+    descriptors = des
 
   return (keypoints, np.array(descriptors))
 
