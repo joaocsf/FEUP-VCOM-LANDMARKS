@@ -200,10 +200,12 @@ class MonumentClassifier:
 
 
     print(prediction)
-    tries = 3
+    tries = 40
     box = None
     for i in range(tries):
       rnd = random.choice(self.lookup_data[str(int(prediction))])
+      #rnd = self.lookup_data[str(int(prediction))][0]
+      print(rnd)
       box = self.compute_box(rnd, line)
 
       if not box is None: break
@@ -215,17 +217,8 @@ class MonumentClassifier:
     else:
       img = cv.imread(path, cv.IMREAD_COLOR)
       box = [int(x) for x in box]
-      pt1 = [box[0], box[1]]
-      pt2 = [box[2], box[1]]
-      pt3 = [box[2], box[3]]
-      pt4 = [box[0], box[3]]
-      pts = np.array([pt1, pt2, pt3, pt4])
-      pprint(pts)
-      cv.drawContours(img, [pts], -1, (255,0,0), 3)
-      cv.imshow('Test',img)
-      cv.waitKey(10000)
 
-    print(1 if prediction == class_id else 0)
+    self.save_to_resuts(path, box, prediction)
     self.correct.append(1 if prediction == class_id else 0)
     print_bar(self.counter/self.max_lines, 'Test', '{0}/{1}'.format(self.counter, self.max_lines), length=50)
 
@@ -238,56 +231,99 @@ class MonumentClassifier:
 
     sift = cv.xfeatures2d.SIFT_create()
 
-    l_image = cv.imread(l_path, cv.IMREAD_GRAYSCALE)
-    t_image = cv.imread(t_path, cv.IMREAD_GRAYSCALE)
+    #l_image = cv.imread(l_path, cv.IMREAD_GRAYSCALE)
+    #t_image = cv.imread(t_path, cv.IMREAD_GRAYSCALE)
+
+    # l_image = cv.equalizeHist(l_image)
+    # t_image = cv.equalizeHist(t_image)
 
     #l_kp, l_des, _ = self.compute_features(l_path, l_name, l_box)
-    l_kp, l_des = extract_features(l_path, l_box, l_image)
+    m_box = [int(x*l_factor) for x in l_box]
+    l_kp, l_des = extract_features(l_path, m_box, l_image)
     t_kp, t_des = sift.detectAndCompute(t_image, None)
     #t_kp, t_des, _ = self.compute_features(t_path, t_name, t_box)
 
     l_color_image = cv.cvtColor(l_image, cv.COLOR_GRAY2BGR)
     t_color_image = cv.cvtColor(t_image, cv.COLOR_GRAY2BGR)
 
-    pt1 = [l_box[0], l_box[1]]
-    pt2 = [l_box[2], l_box[1]]
-    pt3 = [l_box[2], l_box[3]]
-    pt4 = [l_box[0], l_box[3]]
+    pt1 = [m_box[0], m_box[1]]
+    pt2 = [m_box[2], m_box[1]]
+    pt3 = [m_box[2], m_box[3]]
+    pt4 = [m_box[0], m_box[3]]
     pts = np.array([pt1, pt2, pt3, pt4])
     l_color_image = cv.drawContours(l_color_image, [pts], -1, (255,0,0), 4)
     cv.drawKeypoints(l_color_image, l_kp, l_color_image)
     cv.drawKeypoints(t_color_image, t_kp, t_color_image)
-    cv.imshow('l_image', l_color_image)
-    cv.imshow('t_image', t_color_image)
-    cv.waitKey(0)
+    #cv.namedWindow('l_image', cv.WINDOW_NORMAL)
+    #cv.namedWindow('t_image', cv.WINDOW_NORMAL)
+    #cv.imshow('l_image', l_color_image)
+    #cv.imshow('t_image', t_color_image)
+    #cv.waitKey(0)
+
     feature_matcher = cv.BFMatcher()
-    matches = feature_matcher.knnMatch(l_des, t_des, k=2)
+    matches = feature_matcher.match(l_des, t_des)
 
-    #matches = sorted(matches, key = lambda x: x.distance)
-
+    matches = sorted(matches, key = lambda x: x.distance)
+    #print('Got Matches {0}'.format(matches is None), flush=True)
     if matches is None: return None
-    tmp = []
 
-    for m, n in matches:
-      if m.distance > 0.8 * n.distance:
+    tmp = []
+    h, w = l_image.shape[:2]
+    thresh = max(h, w)
+
+    for m in matches:
+      if(m.distance < thresh):
         tmp.append(m)
+
+    # for m, n in matches:
+    #   if m.distance > 0.5 * n.distance:
+    #    tmp.append(m)
 
     matches = tmp
     if len(matches) > MIN_MATCH_COUNT:
-      good = matches[:MIN_MATCH_COUNT]
+      good = matches
       pts1 = np.float32(
             [l_kp[m.queryIdx].pt for m in good]).reshape(-1, 1, 2)
       pts2 = np.float32(
             [t_kp[m.trainIdx].pt for m in good]).reshape(-1, 1, 2)
       
       H, mask = cv.findHomography(pts1, pts2, cv.RANSAC, 5.0)
+      matches = mask.ravel().tolist()
+      n_inliners = np.sum(matches)
+      #print('InLiers {0}'.format(n_inliners), flush=True)
+      if n_inliners < MIN_MATCH_COUNT - 10:
+        return None
+      
+      draw_params = dict(matchColor = (0,255,0),
+                    singlePointColor = None,
+                    matchesMask = matches,
+                    flags = 2)
+      
+      img = cv.drawMatches(l_image, l_kp, t_image, t_kp, good, None, **draw_params)
+      #cv.namedWindow('Matches', cv.WINDOW_NORMAL)
+      #cv.imshow('Matches', img)
+      #cv.waitKey(0)
 
       if H is None:
         return None
 
       l_box_points = ((l_box[0], l_box[1]), (l_box[2], l_box[3])) 
       #r_box_points = [ mult_point(mult(H, mult_point(x, l_factor)), 1/t_factor) for x in l_box_points]
-      r_box_points = [ mult(H, x) for x in l_box_points]
+      r_box_points = [ mult(H, mult_point(x, l_factor)) for x in l_box_points]
+      #r_box_points = [ mult(H, x) for x in l_box_points]
+
+      x_dist = r_box_points[0][0] - r_box_points[1][0]
+      y_dist = r_box_points[0][1] - r_box_points[1][1]
+
+      tmp_area = abs(x_dist * y_dist)
+
+      h,w = t_image.shape[:2]
+
+      if tmp_area < (h*w)/128:
+        return None
+
+      r_box_points = [mult_point(x, 1/t_factor) for x in r_box_points]
+
 
       x_a, y_a = r_box_points[0]
       x_b, y_b = r_box_points[1]
@@ -297,10 +333,28 @@ class MonumentClassifier:
     else:
       return None
 
+  def save_to_resuts(self, image_path, box, classification):
+    self.results.append((image_path, (box, classification)))
+
+  def store_results(self):
+    names = ['arrabida','camara','clerigos','musica','serralves', 'None']
+    with open('results.txt', 'w') as f:
+      for line in self.results:
+        image_path, prediction = line
+        box, classification = prediction
+        prediction_string = "0"
+
+        if not box is None:
+          prediction_string = "1 {0},{1},{2},{3},{4},1.0".format(box[0], box[1], box[2], box[3], names[int(classification)])
+
+        f.write("{0} {1}\n".format(image_path, prediction_string))
+
+
   def test_classifier(self, test_file):
     self.lookup_data = self.load_lookup(self.lookup_cache)
     self.test_file = test_file
     self.counter = 0
+    self.results = []
     self.svm = self.load_svm()
     vocabulary = self.load_vocabulary()
     sift = cv.xfeatures2d.SIFT_create()
@@ -332,7 +386,8 @@ class MonumentClassifier:
         self.process_test_classifier(line)
 
     result = np.sum(self.correct) / len(self.correct)
-    print(result)
+    print('Saving Results, Estimated Accuracy {0}'.format(result))
+    self.store_results()
 
   def store_svm(self, svm):
     svm.save(self.svm_cache_path)
@@ -489,7 +544,7 @@ def main():
   train_file = 'train.txt'
   test_file = 'test.txt'
 
-  mc.set_multi_thread(False)
+  mc.set_multi_thread(True)
 
   if args.train_vocabulary:
     mc.train_vocabulary(train_file)
