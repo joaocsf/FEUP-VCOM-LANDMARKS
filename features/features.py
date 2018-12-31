@@ -344,7 +344,9 @@ class MonumentClassifier:
         box, classification = prediction
         prediction_string = "0"
 
+
         if not box is None:
+          box = [ 0 if x < 0 else x for x in box]
           prediction_string = "1 {0},{1},{2},{3},{4},1.0".format(box[0], box[1], box[2], box[3], names[int(classification)])
 
         f.write("{0} {1}\n".format(image_path, prediction_string))
