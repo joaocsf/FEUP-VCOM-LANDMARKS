@@ -14,6 +14,7 @@ def main():
     rowSplited = row.split(' ')
     imgPath = rowSplited[0]
     print(i, '/', len(lines))
+    imgPath = imgPath.replace('\n','')
     image = Image.open(imgPath)
     r_image = yolo.vcom_detect_image(image, imgPath, resultsFile)
 

@@ -322,6 +322,8 @@ class MonumentClassifier:
       if tmp_area < (h*w)/128:
         return None
 
+      r_box_points = [clamp_point(x, (0,0), (w,h)) for x in r_box_points]
+
       r_box_points = [mult_point(x, 1/t_factor) for x in r_box_points]
 
 
@@ -533,6 +535,19 @@ def load_features(path):
 def create_dir(path):
   if not os.path.isdir(path):
     os.mkdir(path)
+
+def clamp_point(p, minimum, maximum):
+  return (clamp(p[0], minimum[0], maximum[0]),
+      clamp(p[1], minimum[1], maximum[1]))
+
+def clamp(p, minimum, maximum):
+  if p < minimum:
+    return minimum
+  if p > maximum:
+    return maximum
+  return p
+
+
 
 def main():
   parser = argparse.ArgumentParser(description='Descriptor Trainer and Classifier')
