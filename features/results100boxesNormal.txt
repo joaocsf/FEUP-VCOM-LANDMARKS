@@ -1,0 +1,761 @@
+../dataset/porto-dataset/images/arrabida/arrabida-0465.jpg 1 22,170,934,368,arrabida,1.0
+../dataset/porto-dataset/images/arrabida/arrabida-0466.jpg 1 572,343,685,446,arrabida,1.0
+../dataset/porto-dataset/images/arrabida/arrabida-0513.jpg 0
+../dataset/porto-dataset/images/arrabida/arrabida-0441.jpg 1 672,392,946,425,clerigos,1.0
+../dataset/porto-dataset/images/camara/camara-0425.jpg 1 1505,0,2435,322,camara,1.0
+../dataset/porto-dataset/images/arrabida/arrabida-0417.jpg 0
+../dataset/porto-dataset/images/arrabida/arrabida-0442.jpg 1 491,688,856,768,arrabida,1.0
+../dataset/porto-dataset/images/arrabida/arrabida-0489.jpg 0
+../dataset/porto-dataset/images/arrabida/arrabida-0490.jpg 1 7,201,1024,439,arrabida,1.0
+../dataset/porto-dataset/images/arrabida/arrabida-0418.jpg 1 41,328,652,448,arrabida,1.0
+../dataset/porto-dataset/images/arrabida/arrabida-0514.jpg 1 0,0,922,106,arrabida,1.0
+../dataset/porto-dataset/images/arrabida/arrabida-0467.jpg 0
+../dataset/porto-dataset/images/camara/camara-0377.jpg 1 245,2031,636,3996,clerigos,1.0
+../dataset/porto-dataset/images/arrabida/arrabida-0419.jpg 1 0,0,956,594,arrabida,1.0
+../dataset/porto-dataset/images/arrabida/arrabida-0491.jpg 0
+../dataset/porto-dataset/images/arrabida/arrabida-0515.jpg 1 341,193,863,373,arrabida,1.0
+../dataset/porto-dataset/images/arrabida/arrabida-0443.jpg 1 857,465,1024,504,clerigos,1.0
+../dataset/porto-dataset/images/arrabida/arrabida-0444.jpg 1 201,287,332,359,arrabida,1.0
+../dataset/porto-dataset/images/arrabida/arrabida-0445.jpg 1 364,400,1024,768,arrabida,1.0
+../dataset/porto-dataset/images/arrabida/arrabida-0420.jpg 1 498,560,553,675,arrabida,1.0
+../dataset/porto-dataset/images/camara/camara-0401.jpg 0
+../dataset/porto-dataset/images/arrabida/arrabida-0468.jpg 1 0,213,165,392,arrabida,1.0
+../dataset/porto-dataset/images/arrabida/arrabida-0469.jpg 1 0,419,152,454,musica,1.0
+../dataset/porto-dataset/images/camara/camara-0426.jpg 0
+../dataset/porto-dataset/images/arrabida/arrabida-0446.jpg 1 34,553,107,648,arrabida,1.0
+../dataset/porto-dataset/images/arrabida/arrabida-0470.jpg 1 337,207,573,340,serralves,1.0
+../dataset/porto-dataset/images/arrabida/arrabida-0492.jpg 0
+../dataset/porto-dataset/images/arrabida/arrabida-0516.jpg 1 575,1719,5244,2439,arrabida,1.0
+../dataset/porto-dataset/images/arrabida/arrabida-0493.jpg 1 367,403,422,550,arrabida,1.0
+../dataset/porto-dataset/images/arrabida/arrabida-0421.jpg 0
+../dataset/porto-dataset/images/camara/camara-0378.jpg 0
+../dataset/porto-dataset/images/arrabida/arrabida-0422.jpg 1 36,313,817,494,arrabida,1.0
+../dataset/porto-dataset/images/arrabida/arrabida-0423.jpg 1 672,477,755,584,arrabida,1.0
+../dataset/porto-dataset/images/arrabida/arrabida-0494.jpg 0
+../dataset/porto-dataset/images/arrabida/arrabida-0517.jpg 0
+../dataset/porto-dataset/images/arrabida/arrabida-0447.jpg 0
+../dataset/porto-dataset/images/camara/camara-0402.jpg 0
+../dataset/porto-dataset/images/arrabida/arrabida-0448.jpg 1 36,296,95,394,arrabida,1.0
+../dataset/porto-dataset/images/arrabida/arrabida-0471.jpg 0
+../dataset/porto-dataset/images/arrabida/arrabida-0449.jpg 1 37,409,149,488,clerigos,1.0
+../dataset/porto-dataset/images/camara/camara-0427.jpg 0
+../dataset/porto-dataset/images/arrabida/arrabida-0518.jpg 0
+../dataset/porto-dataset/images/arrabida/arrabida-0519.jpg 1 247,112,461,329,arrabida,1.0
+../dataset/porto-dataset/images/arrabida/arrabida-0472.jpg 0
+../dataset/porto-dataset/images/arrabida/arrabida-0450.jpg 1 1024,0,1024,457,arrabida,1.0
+../dataset/porto-dataset/images/arrabida/arrabida-0424.jpg 0
+../dataset/porto-dataset/images/arrabida/arrabida-0495.jpg 0
+../dataset/porto-dataset/images/camara/camara-0379.jpg 0
+../dataset/porto-dataset/images/arrabida/arrabida-0496.jpg 1 652,93,686,224,arrabida,1.0
+../dataset/porto-dataset/images/arrabida/arrabida-0425.jpg 0
+../dataset/porto-dataset/images/arrabida/arrabida-0473.jpg 0
+../dataset/porto-dataset/images/arrabida/arrabida-0520.JPG 0
+../dataset/porto-dataset/images/camara/camara-0403.jpg 0
+../dataset/porto-dataset/images/arrabida/arrabida-0451.jpg 0
+../dataset/porto-dataset/images/arrabida/arrabida-0474.jpg 1 873,293,979,459,clerigos,1.0
+../dataset/porto-dataset/images/arrabida/arrabida-0475.jpg 1 370,420,447,601,arrabida,1.0
+../dataset/porto-dataset/images/camara/camara-0428.jpg 0
+../dataset/porto-dataset/images/arrabida/arrabida-0497.jpg 1 542,537,809,621,musica,1.0
+../dataset/porto-dataset/images/arrabida/arrabida-0426.jpg 1 32,352,532,373,arrabida,1.0
+../dataset/porto-dataset/images/arrabida/arrabida-0427.jpg 1 297,434,420,492,arrabida,1.0
+../dataset/porto-dataset/images/arrabida/arrabida-0452.jpg 1 884,272,975,473,clerigos,1.0
+../dataset/porto-dataset/images/arrabida/arrabida-0428.jpg 1 154,0,189,194,arrabida,1.0
+../dataset/porto-dataset/images/arrabida/arrabida-0521.jpg 1 0,1016,262,1103,arrabida,1.0
+../dataset/porto-dataset/images/arrabida/arrabida-0498.jpg 0
+../dataset/porto-dataset/images/arrabida/arrabida-0499.jpg 1 0,678,2310,1160,arrabida,1.0
+../dataset/porto-dataset/images/arrabida/arrabida-0429.jpg 0
+../dataset/porto-dataset/images/camara/camara-0380.jpg 0
+../dataset/porto-dataset/images/arrabida/arrabida-0476.jpg 0
+../dataset/porto-dataset/images/arrabida/arrabida-0453.jpg 0
+../dataset/porto-dataset/images/arrabida/arrabida-0430.jpg 1 368,271,665,455,arrabida,1.0
+../dataset/porto-dataset/images/camara/camara-0362.jpg 1 0,0,2240,3022,camara,1.0
+../dataset/porto-dataset/images/arrabida/arrabida-0500.jpg 1 1246,562,1311,842,arrabida,1.0
+../dataset/porto-dataset/images/arrabida/arrabida-0501.jpg 1 0,0,4283,2509,arrabida,1.0
+../dataset/porto-dataset/images/arrabida/arrabida-0477.jpg 1 0,435,124,577,arrabida,1.0
+../dataset/porto-dataset/images/arrabida/arrabida-0454.jpg 1 0,365,447,446,clerigos,1.0
+../dataset/porto-dataset/images/arrabida/arrabida-0431.jpg 1 529,278,582,400,arrabida,1.0
+../dataset/porto-dataset/images/camara/camara-0429.jpg 0
+../dataset/porto-dataset/images/arrabida/arrabida-0455.jpg 1 55,280,115,412,clerigos,1.0
+../dataset/porto-dataset/images/camara/camara-0404.jpg 0
+../dataset/porto-dataset/images/arrabida/arrabida-0502.jpg 0
+../dataset/porto-dataset/images/arrabida/arrabida-0478.jpg 0
+../dataset/porto-dataset/images/camara/camara-0405.jpg 1 432,0,2110,3504,arrabida,1.0
+../dataset/porto-dataset/images/camara/camara-0381.jpg 0
+../dataset/porto-dataset/images/camara/camara-0430.jpg 1 832,187,3000,1253,camara,1.0
+../dataset/porto-dataset/images/arrabida/arrabida-0456.jpg 0
+../dataset/porto-dataset/images/arrabida/arrabida-0432.jpg 0
+../dataset/porto-dataset/images/arrabida/arrabida-0503.jpg 1 991,1633,3873,2506,arrabida,1.0
+../dataset/porto-dataset/images/arrabida/arrabida-0504.jpg 1 599,168,857,216,arrabida,1.0
+../dataset/porto-dataset/images/arrabida/arrabida-0433.jpg 1 766,336,847,404,arrabida,1.0
+../dataset/porto-dataset/images/arrabida/arrabida-0505.jpg 1 0,224,820,380,arrabida,1.0
+../dataset/porto-dataset/images/camara/camara-0363.jpg 0
+../dataset/porto-dataset/images/arrabida/arrabida-0434.jpg 1 331,302,737,404,arrabida,1.0
+../dataset/porto-dataset/images/arrabida/arrabida-0479.jpg 0
+../dataset/porto-dataset/images/arrabida/arrabida-0480.jpg 1 110,274,871,416,arrabida,1.0
+../dataset/porto-dataset/images/arrabida/arrabida-0457.jpg 0
+../dataset/porto-dataset/images/arrabida/arrabida-0481.jpg 1 629,284,748,354,arrabida,1.0
+../dataset/porto-dataset/images/camara/camara-0382.jpg 1 1854,2144,2314,2357,clerigos,1.0
+../dataset/porto-dataset/images/arrabida/arrabida-0506.jpg 0
+../dataset/porto-dataset/images/arrabida/arrabida-0482.jpg 1 87,409,822,555,arrabida,1.0
+../dataset/porto-dataset/images/camara/camara-0406.jpg 0
+../dataset/porto-dataset/images/arrabida/arrabida-0435.jpg 0
+../dataset/porto-dataset/images/arrabida/arrabida-0436.jpg 1 501,103,701,176,arrabida,1.0
+../dataset/porto-dataset/images/arrabida/arrabida-0483.jpg 1 21,45,80,155,clerigos,1.0
+../dataset/porto-dataset/images/arrabida/arrabida-0437.jpg 1 756,562,1024,768,arrabida,1.0
+../dataset/porto-dataset/images/arrabida/arrabida-0484.jpg 1 598,0,1024,295,arrabida,1.0
+../dataset/porto-dataset/images/arrabida/arrabida-0458.jpg 0
+../dataset/porto-dataset/images/arrabida/arrabida-0507.jpg 1 931,857,3283,1403,arrabida,1.0
+../dataset/porto-dataset/images/camara/camara-0431.jpg 0
+../dataset/porto-dataset/images/arrabida/arrabida-0459.jpg 1 0,258,738,398,arrabida,1.0
+../dataset/porto-dataset/images/arrabida/arrabida-0485.jpg 0
+../dataset/porto-dataset/images/camara/camara-0407.jpg 0
+../dataset/porto-dataset/images/camara/camara-0364.jpg 0
+../dataset/porto-dataset/images/arrabida/arrabida-0508.jpg 0
+../dataset/porto-dataset/images/arrabida/arrabida-0460.jpg 0
+../dataset/porto-dataset/images/arrabida/arrabida-0438.jpg 0
+../dataset/porto-dataset/images/camara/camara-0383.jpg 0
+../dataset/porto-dataset/images/arrabida/arrabida-0486.jpg 1 25,180,995,558,arrabida,1.0
+../dataset/porto-dataset/images/arrabida/arrabida-0509.jpg 1 89,164,595,294,arrabida,1.0
+../dataset/porto-dataset/images/arrabida/arrabida-0510.JPG 1 0,398,4,455,arrabida,1.0
+../dataset/porto-dataset/images/arrabida/arrabida-0439.jpg 0
+../dataset/porto-dataset/images/arrabida/arrabida-0511.jpg 1 746,0,750,195,arrabida,1.0
+../dataset/porto-dataset/images/arrabida/arrabida-0487.jpg 0
+../dataset/porto-dataset/images/arrabida/arrabida-0461.jpg 1 0,58,444,276,clerigos,1.0
+../dataset/porto-dataset/images/arrabida/arrabida-0440.jpg 1 699,342,743,539,arrabida,1.0
+../dataset/porto-dataset/images/camara/camara-0365.jpg 1 156,663,1258,2442,camara,1.0
+../dataset/porto-dataset/images/camara/camara-0384.jpg 1 1119,1251,3000,2370,clerigos,1.0
+../dataset/porto-dataset/images/arrabida/arrabida-0462.jpg 1 126,162,326,189,serralves,1.0
+../dataset/porto-dataset/images/camara/camara-0449.jpg 1 1649,2294,1826,2915,musica,1.0
+../dataset/porto-dataset/images/arrabida/arrabida-0463.jpg 1 117,191,893,368,arrabida,1.0
+../dataset/porto-dataset/images/arrabida/arrabida-0512.jpg 1 0,184,1613,577,arrabida,1.0
+../dataset/porto-dataset/images/camara/camara-0432.jpg 0
+../dataset/porto-dataset/images/arrabida/arrabida-0488.jpg 0
+../dataset/porto-dataset/images/camara/camara-0408.jpg 0
+../dataset/porto-dataset/images/arrabida/arrabida-0464.jpg 0
+../dataset/porto-dataset/images/clerigos/clerigos-0481.jpg 1 974,0,2546,2112,clerigos,1.0
+../dataset/porto-dataset/images/clerigos/clerigos-0529.jpg 1 68,831,460,1881,arrabida,1.0
+../dataset/porto-dataset/images/clerigos/clerigos-0505.jpg 1 322,0,1929,3279,clerigos,1.0
+../dataset/porto-dataset/images/clerigos/clerigos-0482.jpg 1 678,0,2232,2023,clerigos,1.0
+../dataset/porto-dataset/images/camara/camara-0366.jpg 0
+../dataset/porto-dataset/images/clerigos/clerigos-0506.jpg 1 948,0,2017,3889,clerigos,1.0
+../dataset/porto-dataset/images/camara/camara-0385.jpg 0
+../dataset/porto-dataset/images/clerigos/clerigos-0483.jpg 1 1542,0,2539,3165,clerigos,1.0
+../dataset/porto-dataset/images/clerigos/clerigos-0484.jpg 1 1442,0,2435,3000,clerigos,1.0
+../dataset/porto-dataset/images/camara/camara-0450.jpg 0
+../dataset/porto-dataset/images/clerigos/clerigos-0485.jpg 1 940,0,2460,2581,clerigos,1.0
+../dataset/porto-dataset/images/camara/camara-0367.jpg 1 2115,2438,2691,3218,camara,1.0
+../dataset/porto-dataset/images/clerigos/clerigos-0486.jpg 1 932,0,2045,3566,clerigos,1.0
+../dataset/porto-dataset/images/camara/camara-0409.jpg 0
+../dataset/porto-dataset/images/clerigos/clerigos-0530.jpg 1 2001,2363,2704,2935,camara,1.0
+../dataset/porto-dataset/images/camara/camara-0386.jpg 1 1252,0,4000,3000,camara,1.0
+../dataset/porto-dataset/images/camara/camara-0433.jpg 0
+../dataset/porto-dataset/images/clerigos/clerigos-0487.jpg 1 1581,0,2551,3000,clerigos,1.0
+../dataset/porto-dataset/images/clerigos/clerigos-0488.jpg 1 1157,0,2492,3452,clerigos,1.0
+../dataset/porto-dataset/images/clerigos/clerigos-0507.jpg 1 55,62,1961,3162,clerigos,1.0
+../dataset/porto-dataset/images/camara/camara-0368.jpg 1 0,2449,139,2849,arrabida,1.0
+../dataset/porto-dataset/images/clerigos/clerigos-0508.jpg 1 1147,0,2125,3428,clerigos,1.0
+../dataset/porto-dataset/images/camara/camara-0451.jpg 0
+../dataset/porto-dataset/images/clerigos/clerigos-0531.jpg 1 2112,3352,2587,3725,arrabida,1.0
+../dataset/porto-dataset/images/camara/camara-0434.jpg 0
+../dataset/porto-dataset/images/camara/camara-0410.jpg 0
+../dataset/porto-dataset/images/camara/camara-0387.jpg 0
+../dataset/porto-dataset/images/camara/camara-0435.jpg 1 2183,1307,2428,1743,arrabida,1.0
+../dataset/porto-dataset/images/clerigos/clerigos-0489.jpg 0
+../dataset/porto-dataset/images/clerigos/clerigos-0490.jpg 1 1593,0,2856,2202,clerigos,1.0
+../dataset/porto-dataset/images/camara/camara-0436.jpg 1 567,2644,2951,2929,arrabida,1.0
+../dataset/porto-dataset/images/clerigos/clerigos-0509.jpg 0
+../dataset/porto-dataset/images/clerigos/clerigos-0532.jpg 0
+../dataset/porto-dataset/images/camara/camara-0452.jpg 0
+../dataset/porto-dataset/images/camara/camara-0369.jpg 0
+../dataset/porto-dataset/images/clerigos/clerigos-0461.jpg 1 924,0,1997,3996,clerigos,1.0
+../dataset/porto-dataset/images/camara/camara-0437.jpg 1 0,2654,921,2762,arrabida,1.0
+../dataset/porto-dataset/images/clerigos/clerigos-0462.jpg 1 270,0,1952,3336,clerigos,1.0
+../dataset/porto-dataset/images/camara/camara-0411.jpg 0
+../dataset/porto-dataset/images/clerigos/clerigos-0463.jpg 1 1245,0,2704,2834,clerigos,1.0
+../dataset/porto-dataset/images/clerigos/clerigos-0510.jpg 1 966,1098,3000,3414,clerigos,1.0
+../dataset/porto-dataset/images/clerigos/clerigos-0511.jpg 1 1628,0,2644,3000,clerigos,1.0
+../dataset/porto-dataset/images/clerigos/clerigos-0464.jpg 1 397,0,2263,3930,clerigos,1.0
+../dataset/porto-dataset/images/camara/camara-0388.jpg 0
+../dataset/porto-dataset/images/clerigos/clerigos-0533.jpg 1 2572,2867,3000,3127,arrabida,1.0
+../dataset/porto-dataset/images/clerigos/clerigos-0465.jpg 1 1082,930,2617,3000,clerigos,1.0
+../dataset/porto-dataset/images/clerigos/clerigos-0491.jpg 0
+../dataset/porto-dataset/images/clerigos/clerigos-0466.jpg 1 1239,723,2829,3996,clerigos,1.0
+../dataset/porto-dataset/images/clerigos/clerigos-0512.jpg 1 1546,521,3000,3799,clerigos,1.0
+../dataset/porto-dataset/images/clerigos/clerigos-0513.jpg 1 752,0,1898,3414,clerigos,1.0
+../dataset/porto-dataset/images/clerigos/clerigos-0514.jpg 1 1118,0,2096,3594,clerigos,1.0
+../dataset/porto-dataset/images/clerigos/clerigos-0515.jpg 1 1515,0,2565,3078,clerigos,1.0
+../dataset/porto-dataset/images/camara/camara-0438.jpg 1 1106,276,1968,1899,camara,1.0
+../dataset/porto-dataset/images/clerigos/clerigos-0467.jpg 1 610,398,2243,3976,clerigos,1.0
+../dataset/porto-dataset/images/clerigos/clerigos-0516.jpg 1 595,1219,2277,3946,clerigos,1.0
+../dataset/porto-dataset/images/clerigos/clerigos-0492.jpg 1 1762,0,2518,2261,clerigos,1.0
+../dataset/porto-dataset/images/clerigos/clerigos-0493.jpg 1 362,0,1827,2960,clerigos,1.0
+../dataset/porto-dataset/images/camara/camara-0370.jpg 0
+../dataset/porto-dataset/images/camara/camara-0412.jpg 0
+../dataset/porto-dataset/images/clerigos/clerigos-0494.jpg 1 0,0,1865,2077,clerigos,1.0
+../dataset/porto-dataset/images/clerigos/clerigos-0534.jpg 0
+../dataset/porto-dataset/images/camara/camara-0389.jpg 0
+../dataset/porto-dataset/images/camara/camara-0439.jpg 1 1891,225,2753,856,camara,1.0
+../dataset/porto-dataset/images/camara/camara-0371.jpg 1 0,0,1478,3196,camara,1.0
+../dataset/porto-dataset/images/camara/camara-0440.jpg 1 270,550,422,1310,camara,1.0
+../dataset/porto-dataset/images/clerigos/clerigos-0517.jpg 1 78,0,3000,688,camara,1.0
+../dataset/porto-dataset/images/clerigos/clerigos-0468.jpg 0
+../dataset/porto-dataset/images/clerigos/clerigos-0469.jpg 1 2098,588,3000,3996,clerigos,1.0
+../dataset/porto-dataset/images/clerigos/clerigos-0535.jpg 0
+../dataset/porto-dataset/images/clerigos/clerigos-0495.jpg 1 970,0,3000,3064,clerigos,1.0
+../dataset/porto-dataset/images/clerigos/clerigos-0470.jpg 1 1032,0,2606,2852,clerigos,1.0
+../dataset/porto-dataset/images/camara/camara-0413.jpg 0
+../dataset/porto-dataset/images/clerigos/clerigos-0496.jpg 1 1197,0,2175,3677,clerigos,1.0
+../dataset/porto-dataset/images/camara/camara-0441.jpg 0
+../dataset/porto-dataset/images/clerigos/clerigos-0471.jpg 1 164,2230,1692,2624,clerigos,1.0
+../dataset/porto-dataset/images/clerigos/clerigos-0472.jpg 1 983,12,2650,3996,clerigos,1.0
+../dataset/porto-dataset/images/camara/camara-0390.jpg 0
+../dataset/porto-dataset/images/clerigos/clerigos-0473.jpg 1 971,0,1942,3492,clerigos,1.0
+../dataset/porto-dataset/images/camara/camara-0414.jpg 1 201,0,3000,3318,camara,1.0
+../dataset/porto-dataset/images/clerigos/clerigos-0518.jpg 0
+../dataset/porto-dataset/images/clerigos/clerigos-0536.jpg 0
+../dataset/porto-dataset/images/camara/camara-0372.jpg 0
+../dataset/porto-dataset/images/clerigos/clerigos-0497.jpg 0
+../dataset/porto-dataset/images/clerigos/clerigos-0474.jpg 1 393,0,1694,3111,clerigos,1.0
+../dataset/porto-dataset/images/camara/camara-0442.jpg 1 1980,2315,2250,2940,camara,1.0
+../dataset/porto-dataset/images/clerigos/clerigos-0537.jpg 1 2638,2308,3000,2357,clerigos,1.0
+../dataset/porto-dataset/images/clerigos/clerigos-0475.jpg 1 1543,0,2456,3000,clerigos,1.0
+../dataset/porto-dataset/images/clerigos/clerigos-0519.jpg 0
+../dataset/porto-dataset/images/camara/camara-0391.jpg 0
+../dataset/porto-dataset/images/camara/camara-0415.jpg 1 1645,2068,2294,2496,camara,1.0
+../dataset/porto-dataset/images/clerigos/clerigos-0476.jpg 1 0,0,1606,2008,clerigos,1.0
+../dataset/porto-dataset/images/camara/camara-0373.jpg 0
+../dataset/porto-dataset/images/clerigos/clerigos-0498.jpg 0
+../dataset/porto-dataset/images/clerigos/clerigos-0477.jpg 1 703,0,2709,2071,clerigos,1.0
+../dataset/porto-dataset/images/clerigos/clerigos-0499.jpg 1 219,0,2085,3394,clerigos,1.0
+../dataset/porto-dataset/images/clerigos/clerigos-0500.jpg 1 1499,0,2493,3202,clerigos,1.0
+../dataset/porto-dataset/images/clerigos/clerigos-0520.jpg 0
+../dataset/porto-dataset/images/clerigos/clerigos-0538.jpg 0
+../dataset/porto-dataset/images/clerigos/clerigos-0539.jpg 1 1385,2802,1586,3626,clerigos,1.0
+../dataset/porto-dataset/images/clerigos/clerigos-0478.jpg 1 117,175,2003,3228,clerigos,1.0
+../dataset/porto-dataset/images/camara/camara-0443.jpg 0
+../dataset/porto-dataset/images/clerigos/clerigos-0501.jpg 1 805,0,1037,1844,clerigos,1.0
+../dataset/porto-dataset/images/clerigos/clerigos-0479.jpg 1 1196,0,2461,3498,clerigos,1.0
+../dataset/porto-dataset/images/camara/camara-0416.jpg 0
+../dataset/porto-dataset/images/clerigos/clerigos-0502.jpg 1 1493,461,3000,3833,clerigos,1.0
+../dataset/porto-dataset/images/clerigos/clerigos-0480.jpg 1 1228,0,2158,3320,clerigos,1.0
+../dataset/porto-dataset/images/camara/camara-0392.jpg 1 281,899,1780,1979,camara,1.0
+../dataset/porto-dataset/images/clerigos/clerigos-0503.jpg 1 1446,1181,2362,3996,clerigos,1.0
+../dataset/porto-dataset/images/clerigos/clerigos-0540.jpg 1 1905,0,2906,2010,clerigos,1.0
+../dataset/porto-dataset/images/clerigos/clerigos-0521.jpg 0
+../dataset/porto-dataset/images/camara/camara-0374.jpg 0
+../dataset/porto-dataset/images/clerigos/clerigos-0541.jpg 1 1834,0,2935,2735,clerigos,1.0
+../dataset/porto-dataset/images/clerigos/clerigos-0504.jpg 1 1673,2866,1769,3853,camara,1.0
+../dataset/porto-dataset/images/clerigos/clerigos-0522.jpg 1 2329,1810,2817,3635,arrabida,1.0
+../dataset/porto-dataset/images/camara/camara-0444.jpg 1 368,522,3000,3317,camara,1.0
+../dataset/porto-dataset/images/clerigos/clerigos-0553.jpg 0
+../dataset/porto-dataset/images/camara/camara-0417.jpg 0
+../dataset/porto-dataset/images/clerigos/clerigos-0542.jpg 0
+../dataset/porto-dataset/images/musica/musica-0262.jpg 0
+../dataset/porto-dataset/images/clerigos/clerigos-0554.jpg 1 1326,3937,1571,3996,arrabida,1.0
+../dataset/porto-dataset/images/camara/camara-0393.jpg 0
+../dataset/porto-dataset/images/clerigos/clerigos-0555.jpg 1 2086,2747,2366,3238,musica,1.0
+../dataset/porto-dataset/images/camara/camara-0375.jpg 0
+../dataset/porto-dataset/images/camara/camara-0445.jpg 1 1182,1711,1803,2309,camara,1.0
+../dataset/porto-dataset/images/clerigos/clerigos-0543.jpg 1 1446,620,2798,2929,clerigos,1.0
+../dataset/porto-dataset/images/clerigos/clerigos-0523.jpg 0
+../dataset/porto-dataset/images/musica/musica-0263.jpg 1 2680,1485,3037,1741,musica,1.0
+../dataset/porto-dataset/images/camara/camara-0446.jpg 1 0,256,2338,2549,camara,1.0
+../dataset/porto-dataset/images/clerigos/clerigos-0556.jpg 1 1788,341,2952,3025,clerigos,1.0
+../dataset/porto-dataset/images/camara/camara-0447.jpg 1 0,1888,1540,3137,camara,1.0
+../dataset/porto-dataset/images/musica/musica-0264.jpg 1 2906,1446,3125,1814,musica,1.0
+../dataset/porto-dataset/images/musica/musica-0265.jpg 1 732,1534,827,2475,musica,1.0
+../dataset/porto-dataset/images/camara/camara-0418.jpg 0
+../dataset/porto-dataset/images/clerigos/clerigos-0524.jpg 0
+../dataset/porto-dataset/images/clerigos/clerigos-0557.jpg 0
+../dataset/porto-dataset/images/camara/camara-0394.jpg 0
+../dataset/porto-dataset/images/clerigos/clerigos-0544.jpg 0
+../dataset/porto-dataset/images/musica/musica-0266.jpg 1 170,861,747,1297,musica,1.0
+../dataset/porto-dataset/images/musica/musica-0267.jpg 1 0,1776,335,1836,musica,1.0
+../dataset/porto-dataset/images/camara/camara-0448.jpg 0
+../dataset/porto-dataset/images/clerigos/clerigos-0558.jpg 1 1503,2952,2168,3170,arrabida,1.0
+../dataset/porto-dataset/images/camara/camara-0376.jpg 0
+../dataset/porto-dataset/images/musica/musica-0268.jpg 1 0,1461,2016,1836,serralves,1.0
+../dataset/porto-dataset/images/clerigos/clerigos-0545.jpg 1 0,0,135,2673,clerigos,1.0
+../dataset/porto-dataset/images/musica/musica-0310.jpg 1 1266,1445,1617,1695,musica,1.0
+../dataset/porto-dataset/images/camara/camara-0419.jpg 1 2026,219,2326,1021,camara,1.0
+../dataset/porto-dataset/images/musica/musica-0311.jpg 1 2552,0,2986,725,serralves,1.0
+../dataset/porto-dataset/images/clerigos/clerigos-0525.jpg 0
+../dataset/porto-dataset/images/musica/musica-0286.jpg 0
+../dataset/porto-dataset/images/clerigos/clerigos-0559.jpg 0
+../dataset/porto-dataset/images/camara/camara-0395.jpg 0
+../dataset/porto-dataset/images/musica/musica-0312.jpg 1 0,1055,2457,1836,arrabida,1.0
+../dataset/porto-dataset/images/musica/musica-0269.jpg 0
+../dataset/porto-dataset/images/musica/musica-0313.jpg 1 384,1650,3152,1745,serralves,1.0
+../dataset/porto-dataset/images/musica/musica-0287.jpg 1 69,1680,845,1744,clerigos,1.0
+../dataset/porto-dataset/images/clerigos/clerigos-0560.jpg 1 0,0,3204,1376,arrabida,1.0
+../dataset/porto-dataset/images/camara/camara-0420.jpg 1 2954,2143,3000,2307,camara,1.0
+../dataset/porto-dataset/images/clerigos/clerigos-0546.jpg 0
+../dataset/porto-dataset/images/musica/musica-0314.jpg 0
+../dataset/porto-dataset/images/camara/camara-0421.jpg 1 1377,2407,1505,3349,camara,1.0
+../dataset/porto-dataset/images/clerigos/clerigos-0526.jpg 0
+../dataset/porto-dataset/images/musica/musica-0288.jpg 0
+../dataset/porto-dataset/images/musica/musica-0270.jpg 0
+../dataset/porto-dataset/images/musica/musica-0315.jpg 1 1247,1061,1593,1346,musica,1.0
+../dataset/porto-dataset/images/clerigos/clerigos-0561.jpg 0
+../dataset/porto-dataset/images/musica/musica-0316.jpg 1 2523,0,3079,1531,musica,1.0
+../dataset/porto-dataset/images/musica/musica-0317.jpg 1 1363,1440,1720,1576,musica,1.0
+../dataset/porto-dataset/images/camara/camara-0396.jpg 0
+../dataset/porto-dataset/images/musica/musica-0271.jpg 1 2278,1824,3264,1836,musica,1.0
+../dataset/porto-dataset/images/clerigos/clerigos-0547.jpg 1 2466,3285,2752,3996,clerigos,1.0
+../dataset/porto-dataset/images/musica/musica-0272.jpg 1 1440,1312,3081,1641,clerigos,1.0
+../dataset/porto-dataset/images/musica/musica-0289.jpg 0
+../dataset/porto-dataset/images/clerigos/clerigos-0562.jpg 1 2407,3961,2797,3996,arrabida,1.0
+../dataset/porto-dataset/images/musica/musica-0290.jpg 1 640,1127,1256,1247,musica,1.0
+../dataset/porto-dataset/images/clerigos/clerigos-0527.jpg 0
+../dataset/porto-dataset/images/musica/musica-0291.jpg 1 702,524,2033,875,musica,1.0
+../dataset/porto-dataset/images/musica/musica-0292.jpg 1 2998,1554,3264,1772,arrabida,1.0
+../dataset/porto-dataset/images/musica/musica-0318.jpg 1 0,1233,1499,1248,arrabida,1.0
+../dataset/porto-dataset/images/musica/musica-0273.jpg 1 2060,149,2944,1322,musica,1.0
+../dataset/porto-dataset/images/camara/camara-0422.jpg 0
+../dataset/porto-dataset/images/musica/musica-0293.jpg 1 0,1178,121,1316,musica,1.0
+../dataset/porto-dataset/images/musica/musica-0319.jpg 1 407,602,685,847,clerigos,1.0
+../dataset/porto-dataset/images/musica/musica-0274.jpg 1 2679,1339,3000,1558,musica,1.0
+../dataset/porto-dataset/images/musica/musica-0294.jpg 1 1317,1581,1822,1836,serralves,1.0
+../dataset/porto-dataset/images/clerigos/clerigos-0563.jpg 0
+../dataset/porto-dataset/images/musica/musica-0320.jpg 1 464,1807,1164,1836,clerigos,1.0
+../dataset/porto-dataset/images/clerigos/clerigos-0548.jpg 0
+../dataset/porto-dataset/images/camara/camara-0397.jpg 0
+../dataset/porto-dataset/images/clerigos/clerigos-0528.jpg 0
+../dataset/porto-dataset/images/musica/musica-0275.jpg 1 256,1620,487,1991,musica,1.0
+../dataset/porto-dataset/images/serralves/serralves-0173.jpg 1 0,0,631,302,serralves,1.0
+../dataset/porto-dataset/images/musica/musica-0276.jpg 1 0,0,158,1416,musica,1.0
+../dataset/porto-dataset/images/serralves/serralves-0174.jpg 1 309,146,782,291,serralves,1.0
+../dataset/porto-dataset/images/musica/musica-0277.jpg 1 2457,1757,3264,1836,musica,1.0
+../dataset/porto-dataset/images/musica/musica-0278.jpg 1 17,969,562,1062,musica,1.0
+../dataset/porto-dataset/images/musica/musica-0295.jpg 0
+../dataset/porto-dataset/images/serralves/serralves-0175.jpg 1 406,143,515,768,serralves,1.0
+../dataset/porto-dataset/images/serralves/serralves-0176.jpg 1 129,138,966,358,serralves,1.0
+../dataset/porto-dataset/images/camara/camara-0423.jpg 0
+../dataset/porto-dataset/images/musica/musica-0321.jpg 0
+../dataset/porto-dataset/images/musica/musica-0322.jpg 1 1594,0,3264,763,clerigos,1.0
+../dataset/porto-dataset/images/clerigos/clerigos-0564.jpg 0
+../dataset/porto-dataset/images/clerigos/clerigos-0565.jpg 1 2383,2793,3000,3171,arrabida,1.0
+../dataset/porto-dataset/images/musica/musica-0296.jpg 1 556,0,655,319,musica,1.0
+../dataset/porto-dataset/images/clerigos/clerigos-0549.jpg 0
+../dataset/porto-dataset/images/clerigos/clerigos-0550.jpg 1 2490,2007,2740,2581,arrabida,1.0
+../dataset/porto-dataset/images/camara/camara-0424.jpg 1 1214,1195,3000,1645,camara,1.0
+../dataset/porto-dataset/images/serralves/serralves-0197.jpg 1 0,44,628,227,serralves,1.0
+../dataset/porto-dataset/images/musica/musica-0323.jpg 1 31,1962,526,2382,arrabida,1.0
+../dataset/porto-dataset/images/serralves/serralves-0177.jpg 0
+../dataset/porto-dataset/images/musica/musica-0279.jpg 0
+../dataset/porto-dataset/images/serralves/serralves-0198.jpg 1 85,330,139,395,serralves,1.0
+../dataset/porto-dataset/images/serralves/serralves-0199.jpg 1 164,42,543,183,serralves,1.0
+../dataset/porto-dataset/images/serralves/serralves-0178.jpg 1 221,245,860,514,serralves,1.0
+../dataset/porto-dataset/images/serralves/serralves-0200.jpg 1 422,0,731,118,serralves,1.0
+../dataset/porto-dataset/images/serralves/serralves-0201.jpg 1 256,520,795,608,serralves,1.0
+../dataset/porto-dataset/images/camara/camara-0398.jpg 0
+../dataset/porto-dataset/images/clerigos/clerigos-0566.jpg 1 0,890,2557,3291,arrabida,1.0
+../dataset/porto-dataset/images/musica/musica-0297.jpg 0
+../dataset/porto-dataset/images/musica/musica-0280.jpg 1 966,592,1428,791,camara,1.0
+../dataset/porto-dataset/images/serralves/serralves-0179.jpg 1 457,712,777,738,serralves,1.0
+../dataset/porto-dataset/images/musica/musica-0298.jpg 1 622,1683,1575,1836,musica,1.0
+../dataset/porto-dataset/images/camara/camara-0399.jpg 1 1492,2222,1771,2744,camara,1.0
+../dataset/porto-dataset/images/serralves/serralves-0202.jpg 1 0,0,427,337,serralves,1.0
+../dataset/porto-dataset/images/serralves/serralves-0180.jpg 1 144,108,878,342,serralves,1.0
+../dataset/porto-dataset/images/clerigos/clerigos-0551.jpg 0
+../dataset/porto-dataset/images/clerigos/clerigos-0567.jpg 0
+../dataset/porto-dataset/images/musica/musica-0281.jpg 1 3099,213,3264,506,clerigos,1.0
+../dataset/porto-dataset/images/musica/musica-0324.jpg 0
+../dataset/porto-dataset/images/serralves/serralves-0181.jpg 1 0,55,1024,576,serralves,1.0
+../dataset/porto-dataset/images/serralves/serralves-0182.jpg 1 200,582,320,663,serralves,1.0
+../dataset/porto-dataset/images/serralves/serralves-0183.jpg 1 444,250,2967,1572,serralves,1.0
+../dataset/porto-dataset/images/serralves/serralves-0184.jpg 1 0,1415,3534,2722,serralves,1.0
+../dataset/porto-dataset/images/serralves/serralves-0203.jpg 0
+../dataset/porto-dataset/images/serralves/serralves-0204.jpg 1 43,25,238,97,serralves,1.0
+../dataset/porto-dataset/images/musica/musica-0299.jpg 0
+../dataset/porto-dataset/images/serralves/serralves-0185.jpg 1 932,524,5422,2314,serralves,1.0
+../dataset/porto-dataset/images/musica/musica-0300.jpg 1 1649,667,2759,1061,musica,1.0
+../dataset/porto-dataset/images/serralves/serralves-0186.jpg 1 248,833,2592,1290,serralves,1.0
+../dataset/porto-dataset/images/serralves/serralves-0205.jpg 1 270,395,943,515,serralves,1.0
+../dataset/porto-dataset/images/serralves/serralves-0187.jpg 1 0,88,1024,602,serralves,1.0
+../dataset/porto-dataset/images/clerigos/clerigos-0568.jpg 0
+../dataset/porto-dataset/images/serralves/serralves-0188.jpg 1 672,293,2220,1235,serralves,1.0
+../dataset/porto-dataset/images/musica/musica-0325.jpg 0
+../dataset/porto-dataset/images/camara/camara-0400.jpg 0
+../dataset/porto-dataset/images/clerigos/clerigos-0552.jpg 0
+../dataset/porto-dataset/images/musica/musica-0301.jpg 0
+../dataset/porto-dataset/images/none/none-0230.jpg 1 777,375,960,482,serralves,1.0
+../dataset/porto-dataset/images/musica/musica-0282.jpg 0
+../dataset/porto-dataset/images/serralves/serralves-0165.jpg 1 828,352,1024,421,musica,1.0
+../dataset/porto-dataset/images/clerigos/clerigos-0569.jpg 0
+../dataset/porto-dataset/images/none/none-0269.jpg 0
+../dataset/porto-dataset/images/serralves/serralves-0189.jpg 0
+../dataset/porto-dataset/images/none/none-0245.jpg 0
+../dataset/porto-dataset/images/musica/musica-0302.jpg 0
+../dataset/porto-dataset/images/none/none-0231.jpg 0
+../dataset/porto-dataset/images/serralves/serralves-0166.jpg 1 0,431,52,669,serralves,1.0
+../dataset/porto-dataset/images/musica/musica-0303.jpg 1 2278,280,3066,415,musica,1.0
+../dataset/porto-dataset/images/musica/musica-0304.jpg 1 334,468,2250,1330,musica,1.0
+../dataset/porto-dataset/images/musica/musica-0305.jpg 1 1419,734,2255,1104,musica,1.0
+../dataset/porto-dataset/images/none/none-0270.jpg 0
+../dataset/porto-dataset/images/musica/musica-0306.jpg 1 0,1724,1159,1836,musica,1.0
+../dataset/porto-dataset/images/none/none-0246.jpg 0
+../dataset/porto-dataset/images/none/none-0271.jpg 1 22,472,115,500,arrabida,1.0
+../dataset/porto-dataset/images/musica/musica-0283.jpg 1 0,312,747,1125,camara,1.0
+../dataset/porto-dataset/images/serralves/serralves-0190.jpg 0
+../dataset/porto-dataset/images/clerigos/clerigos-0570.jpg 0
+../dataset/porto-dataset/images/serralves/serralves-0167.jpg 0
+../dataset/porto-dataset/images/none/none-0232.jpg 0
+../dataset/porto-dataset/images/serralves/serralves-0191.jpg 1 608,108,707,207,arrabida,1.0
+../dataset/porto-dataset/images/musica/musica-0307.jpg 0
+../dataset/porto-dataset/images/none/none-0247.jpg 0
+../dataset/porto-dataset/images/none/none-0233.jpg 1 0,790,160,852,arrabida,1.0
+../dataset/porto-dataset/images/none/none-0234.jpg 1 987,1397,1091,1598,arrabida,1.0
+../dataset/porto-dataset/images/none/none-0235.jpg 1 614,285,625,367,arrabida,1.0
+../dataset/porto-dataset/images/serralves/serralves-0168.jpg 0
+../dataset/porto-dataset/images/serralves/serralves-0169.jpg 1 560,0,1024,243,musica,1.0
+../dataset/porto-dataset/images/musica/musica-0284.jpg 0
+../dataset/porto-dataset/images/none/none-0272.jpg 0
+../dataset/porto-dataset/images/serralves/serralves-0170.jpg 1 110,140,539,286,serralves,1.0
+../dataset/porto-dataset/images/musica/musica-0308.jpg 1 1874,1624,2257,1836,camara,1.0
+../dataset/porto-dataset/images/serralves/serralves-0192.jpg 0
+../dataset/porto-dataset/images/clerigos/clerigos-0571.jpg 0
+../dataset/porto-dataset/images/none/none-0273.jpg 1 246,6,284,67,arrabida,1.0
+../dataset/porto-dataset/images/serralves/serralves-0171.jpg 1 0,0,258,495,serralves,1.0
+../dataset/porto-dataset/images/none/none-0248.jpg 1 0,0,320,173,clerigos,1.0
+../dataset/porto-dataset/images/none/none-0249.jpg 1 0,192,99,300,camara,1.0
+../dataset/porto-dataset/images/none/none-0274.jpg 1 0,48,218,308,serralves,1.0
+../dataset/porto-dataset/images/musica/musica-0309.jpg 0
+../dataset/porto-dataset/images/musica/musica-0285.jpg 1 0,718,279,1283,clerigos,1.0
+../dataset/porto-dataset/images/serralves/serralves-0193.jpg 0
+../dataset/porto-dataset/images/serralves/serralves-0194.jpeg 1 297,1008,551,1071,serralves,1.0
+../dataset/porto-dataset/images/clerigos/clerigos-0572.jpg 0
+../dataset/porto-dataset/images/serralves/serralves-0172.jpg 0
+../dataset/porto-dataset/images/serralves/serralves-0195.jpg 1 512,36,554,336,serralves,1.0
+../dataset/porto-dataset/images/none/none-0250.jpg 0
+../dataset/porto-dataset/images/serralves/serralves-0196.jpg 1 582,393,739,464,serralves,1.0
+../dataset/porto-dataset/images/none/none-0030.jpg 1 0,36,118,165,clerigos,1.0
+../dataset/porto-dataset/images/none/none-0236.jpg 0
+../dataset/porto-dataset/images/none/none-0275.jpg 0
+../dataset/porto-dataset/images/none/none-0276.jpg 1 2133,944,2560,1087,arrabida,1.0
+../dataset/porto-dataset/images/none/none-0277.jpg 1 963,264,992,347,musica,1.0
+../dataset/porto-dataset/images/none/none-0278.jpg 1 669,367,750,578,musica,1.0
+../dataset/porto-dataset/images/none/none-0006.jpg 0
+../dataset/porto-dataset/images/none/none-0251.jpg 1 118,138,188,156,camara,1.0
+../dataset/porto-dataset/images/none/none-0054.jpg 0
+../dataset/porto-dataset/images/none/none-0055.jpg 1 434,409,542,471,musica,1.0
+../dataset/porto-dataset/images/none/none-0078.jpg 0
+../dataset/porto-dataset/images/none/none-0237.jpg 0
+../dataset/porto-dataset/images/none/none-0031.jpg 0
+../dataset/porto-dataset/images/none/none-0279.jpg 1 234,0,300,31,camara,1.0
+../dataset/porto-dataset/images/clerigos/clerigos-0573.jpg 0
+../dataset/porto-dataset/images/none/none-0079.jpg 1 917,434,1140,641,arrabida,1.0
+../dataset/porto-dataset/images/none/none-0007.jpg 0
+../dataset/porto-dataset/images/none/none-0280.jpg 1 0,269,254,370,arrabida,1.0
+../dataset/porto-dataset/images/none/none-0252.jpg 0
+../dataset/porto-dataset/images/none/none-0032.jpg 1 0,65,61,128,camara,1.0
+../dataset/porto-dataset/images/none/none-0238.jpg 0
+../dataset/porto-dataset/images/none/none-0239.jpg 1 77,252,253,367,arrabida,1.0
+../dataset/porto-dataset/images/none/none-0080.jpg 0
+../dataset/porto-dataset/images/none/none-0253.jpg 1 174,220,294,269,clerigos,1.0
+../dataset/porto-dataset/images/none/none-0033.jpg 1 112,95,510,340,serralves,1.0
+../dataset/porto-dataset/images/none/none-0056.jpg 0
+../dataset/porto-dataset/images/none/none-0008.jpg 0
+../dataset/porto-dataset/images/none/none-0240.jpg 1 88,0,132,95,arrabida,1.0
+../dataset/porto-dataset/images/none/none-0281.jpg 0
+../dataset/porto-dataset/images/none/none-0057.jpg 1 447,355,768,407,serralves,1.0
+../dataset/porto-dataset/images/none/none-0282.jpg 1 70,92,103,130,camara,1.0
+../dataset/porto-dataset/images/none/none-0254.jpg 0
+../dataset/porto-dataset/images/none/none-0283.jpg 1 310,119,393,202,clerigos,1.0
+../dataset/porto-dataset/images/none/none-0009.jpg 1 815,0,877,354,clerigos,1.0
+../dataset/porto-dataset/images/clerigos/clerigos-0574.jpg 0
+../dataset/porto-dataset/images/none/none-0284.jpg 1 158,60,332,150,camara,1.0
+../dataset/porto-dataset/images/none/none-0081.jpg 0
+../dataset/porto-dataset/images/none/none-0058.jpg 1 448,257,515,295,arrabida,1.0
+../dataset/porto-dataset/images/none/none-0241.jpg 0
+../dataset/porto-dataset/images/none/none-0242.jpg 1 22,472,115,500,arrabida,1.0
+../dataset/porto-dataset/images/none/none-0034.jpg 0
+../dataset/porto-dataset/images/none/none-0285.jpg 0
+../dataset/porto-dataset/images/none/none-0082.jpg 1 948,1051,1232,1188,clerigos,1.0
+../dataset/porto-dataset/images/none/none-0059.jpg 1 186,62,246,182,camara,1.0
+../dataset/porto-dataset/images/clerigos/clerigos-0575.jpg 0
+../dataset/porto-dataset/images/none/none-0243.jpg 0
+../dataset/porto-dataset/images/none/none-0060.jpg 1 382,640,584,640,musica,1.0
+../dataset/porto-dataset/images/none/none-0255.jpg 0
+../dataset/porto-dataset/images/none/none-0035.jpg 0
+../dataset/porto-dataset/images/none/none-0010.jpg 0
+../dataset/porto-dataset/images/none/none-0286.jpg 0
+../dataset/porto-dataset/images/none/none-0244.jpg 1 464,1672,3471,2582,clerigos,1.0
+../dataset/porto-dataset/images/none/none-0083.jpg 0
+../dataset/porto-dataset/images/none/none-0256.jpg 0
+../dataset/porto-dataset/images/none/none-0011.jpg 1 263,155,290,209,serralves,1.0
+../dataset/porto-dataset/images/none/none-0257.jpg 1 2819,1978,3329,2460,clerigos,1.0
+../dataset/porto-dataset/images/none/none-0012.jpg 1 291,124,669,348,clerigos,1.0
+../dataset/porto-dataset/images/musica/musica-0261.jpg 0
+../dataset/porto-dataset/images/none/none-0000.jpg 0
+../dataset/porto-dataset/images/none/none-0084.jpg 1 40,337,217,502,camara,1.0
+../dataset/porto-dataset/images/none/none-0036.jpg 0
+../dataset/porto-dataset/images/none/none-0126.jpg 1 100,281,559,308,serralves,1.0
+../dataset/porto-dataset/images/none/none-0061.jpg 0
+../dataset/porto-dataset/images/none/none-0013.jpg 1 363,343,487,378,musica,1.0
+../dataset/porto-dataset/images/none/none-0037.jpg 1 256,16,443,408,musica,1.0
+../dataset/porto-dataset/images/none/none-0102.jpg 0
+../dataset/porto-dataset/images/none/none-0258.jpg 0
+../dataset/porto-dataset/images/none/none-0001.jpg 1 0,732,588,900,clerigos,1.0
+../dataset/porto-dataset/images/none/none-0103.jpg 1 259,760,487,904,arrabida,1.0
+../dataset/porto-dataset/images/none/none-0002.jpg 1 307,0,700,250,arrabida,1.0
+../dataset/porto-dataset/images/none/none-0085.jpg 0
+../dataset/porto-dataset/images/none/none-0259.jpg 1 622,1338,2312,2998,serralves,1.0
+../dataset/porto-dataset/images/none/none-0014.jpg 0
+../dataset/porto-dataset/images/none/none-0127.jpg 0
+../dataset/porto-dataset/images/none/none-0062.jpg 0
+../dataset/porto-dataset/images/none/none-0104.jpg 0
+../dataset/porto-dataset/images/none/none-0128.jpg 1 0,74,227,368,arrabida,1.0
+../dataset/porto-dataset/images/none/none-0038.jpg 0
+../dataset/porto-dataset/images/none/none-0260.jpg 0
+../dataset/porto-dataset/images/none/none-0015.jpg 0
+../dataset/porto-dataset/images/none/none-0063.jpg 1 189,237,263,343,arrabida,1.0
+../dataset/porto-dataset/images/none/none-0261.jpg 1 303,212,543,377,clerigos,1.0
+../dataset/porto-dataset/images/none/none-0003.jpg 1 650,537,858,633,clerigos,1.0
+../dataset/porto-dataset/images/none/none-0016.jpg 1 582,249,759,276,camara,1.0
+../dataset/porto-dataset/images/none/none-0004.jpg 1 110,237,136,247,arrabida,1.0
+../dataset/porto-dataset/images/none/none-0105.jpg 1 357,437,519,488,arrabida,1.0
+../dataset/porto-dataset/images/none/none-0017.jpg 1 578,664,1050,1161,musica,1.0
+../dataset/porto-dataset/images/none/none-0106.jpg 1 182,270,297,389,musica,1.0
+../dataset/porto-dataset/images/none/none-0039.jpg 1 278,272,349,349,arrabida,1.0
+../dataset/porto-dataset/images/none/none-0129.jpg 0
+../dataset/porto-dataset/images/none/none-0086.jpg 1 94,151,339,381,camara,1.0
+../dataset/porto-dataset/images/none/none-0262.jpg 0
+../dataset/porto-dataset/images/none/none-0130.jpg 1 66,22,128,78,camara,1.0
+../dataset/porto-dataset/images/none/none-0018.jpg 1 761,358,808,497,clerigos,1.0
+../dataset/porto-dataset/images/none/none-0064.jpg 0
+../dataset/porto-dataset/images/none/none-0107.jpg 1 0,0,555,242,arrabida,1.0
+../dataset/porto-dataset/images/none/none-0087.jpg 1 0,109,39,155,clerigos,1.0
+../dataset/porto-dataset/images/none/none-0108.jpg 1 777,358,898,415,clerigos,1.0
+../dataset/porto-dataset/images/none/none-0263.jpg 0
+../dataset/porto-dataset/images/none/none-0005.jpg 0
+../dataset/porto-dataset/images/none/none-0065.jpg 0
+../dataset/porto-dataset/images/none/none-0131.jpg 0
+../dataset/porto-dataset/images/none/none-0150.jpg 1 160,236,194,284,camara,1.0
+../dataset/porto-dataset/images/none/none-0019.jpg 0
+../dataset/porto-dataset/images/none/none-0040.jpg 0
+../dataset/porto-dataset/images/none/none-0088.jpg 0
+../dataset/porto-dataset/images/none/none-0132.jpg 1 463,0,960,363,camara,1.0
+../dataset/porto-dataset/images/none/none-0264.jpg 1 265,0,365,117,arrabida,1.0
+../dataset/porto-dataset/images/none/none-0109.jpg 0
+../dataset/porto-dataset/images/none/none-0066.jpg 0
+../dataset/porto-dataset/images/none/none-0089.jpg 1 116,0,729,372,clerigos,1.0
+../dataset/porto-dataset/images/none/none-0041.jpg 0
+../dataset/porto-dataset/images/none/none-0151.jpg 1 598,610,761,699,clerigos,1.0
+../dataset/porto-dataset/images/none/none-0020.jpg 1 40,139,377,182,camara,1.0
+../dataset/porto-dataset/images/none/none-0042.jpg 1 802,318,955,350,clerigos,1.0
+../dataset/porto-dataset/images/none/none-0021.jpg 1 155,0,204,60,musica,1.0
+../dataset/porto-dataset/images/none/none-0265.jpg 1 442,1370,1068,1565,arrabida,1.0
+../dataset/porto-dataset/images/none/none-0043.jpg 1 0,610,337,706,arrabida,1.0
+../dataset/porto-dataset/images/none/none-0133.jpg 0
+../dataset/porto-dataset/images/none/none-0044.jpg 1 232,0,303,145,serralves,1.0
+../dataset/porto-dataset/images/none/none-0067.jpg 0
+../dataset/porto-dataset/images/none/none-0134.jpg 1 0,211,371,228,clerigos,1.0
+../dataset/porto-dataset/images/none/none-0090.jpg 0
+../dataset/porto-dataset/images/none/none-0045.jpg 1 375,297,458,319,arrabida,1.0
+../dataset/porto-dataset/images/none/none-0110.jpg 0
+../dataset/porto-dataset/images/none/none-0022.jpg 1 648,514,750,549,clerigos,1.0
+../dataset/porto-dataset/images/none/none-0023.jpg 1 97,442,323,498,arrabida,1.0
+../dataset/porto-dataset/images/none/none-0152.jpg 0
+../dataset/porto-dataset/images/none/none-0266.jpg 1 5,436,43,449,clerigos,1.0
+../dataset/porto-dataset/images/none/none-0091.jpg 1 92,401,223,415,arrabida,1.0
+../dataset/porto-dataset/images/none/none-0046.jpg 1 868,933,1284,1225,musica,1.0
+../dataset/porto-dataset/images/none/none-0135.jpg 0
+../dataset/porto-dataset/images/none/none-0153.jpg 1 227,86,244,155,camara,1.0
+../dataset/porto-dataset/images/none/none-0024.jpg 1 21,288,143,358,camara,1.0
+../dataset/porto-dataset/images/none/none-0111.jpg 0
+../dataset/porto-dataset/images/none/none-0068.jpg 0
+../dataset/porto-dataset/images/none/none-0267.jpg 1 484,341,640,422,clerigos,1.0
+../dataset/porto-dataset/images/none/none-0047.jpg 0
+../dataset/porto-dataset/images/none/none-0268.jpg 1 767,0,960,555,arrabida,1.0
+../dataset/porto-dataset/images/none/none-0025.jpg 1 51,831,427,895,musica,1.0
+../dataset/porto-dataset/images/none/none-0136.jpg 1 400,94,479,272,camara,1.0
+../dataset/porto-dataset/images/none/none-0026.jpg 1 0,550,355,633,arrabida,1.0
+../dataset/porto-dataset/images/none/none-0092.jpg 0
+../dataset/porto-dataset/images/none/none-0174.jpg 1 53,0,363,376,arrabida,1.0
+../dataset/porto-dataset/images/none/none-0154.jpg 0
+../dataset/porto-dataset/images/none/none-0175.jpg 1 390,205,496,248,musica,1.0
+../dataset/porto-dataset/images/none/none-0137.jpg 1 1,366,201,377,arrabida,1.0
+../dataset/porto-dataset/images/none/none-0176.jpg 1 138,1273,594,1484,serralves,1.0
+../dataset/porto-dataset/images/none/none-0069.jpg 0
+../dataset/porto-dataset/images/none/none-0027.jpg 0
+../dataset/porto-dataset/images/none/none-0112.jpg 0
+../dataset/porto-dataset/images/none/none-0093.jpg 0
+../dataset/porto-dataset/images/none/none-0070.jpg 1 1255,264,1662,411,clerigos,1.0
+../dataset/porto-dataset/images/none/none-0113.jpg 1 0,464,831,900,arrabida,1.0
+../dataset/porto-dataset/images/none/none-0114.jpg 1 586,337,723,360,camara,1.0
+../dataset/porto-dataset/images/none/none-0177.jpg 1 0,633,260,675,musica,1.0
+../dataset/porto-dataset/images/none/none-0048.jpg 1 414,512,621,593,camara,1.0
+../dataset/porto-dataset/images/none/none-0155.jpg 0
+../dataset/porto-dataset/images/none/none-0071.jpg 1 401,382,466,515,clerigos,1.0
+../dataset/porto-dataset/images/none/none-0115.jpg 1 1293,66,1400,260,camara,1.0
+../dataset/porto-dataset/images/none/none-0028.jpg 0
+../dataset/porto-dataset/images/none/none-0049.jpg 1 150,11,189,55,arrabida,1.0
+../dataset/porto-dataset/images/none/none-0029.jpg 1 718,0,821,736,musica,1.0
+../dataset/porto-dataset/images/none/none-0116.jpg 1 930,726,1007,767,musica,1.0
+../dataset/porto-dataset/images/none/none-0138.jpg 0
+../dataset/porto-dataset/images/none/none-0117.jpg 1 334,286,351,416,camara,1.0
+../dataset/porto-dataset/images/none/none-0178.jpg 0
+../dataset/porto-dataset/images/none/none-0139.jpg 1 0,365,259,411,musica,1.0
+../dataset/porto-dataset/images/none/none-0094.jpg 0
+../dataset/porto-dataset/images/none/none-0198.jpg 1 0,1321,426,1364,clerigos,1.0
+../dataset/porto-dataset/images/none/none-0072.jpg 1 0,151,88,196,camara,1.0
+../dataset/porto-dataset/images/none/none-0156.jpg 0
+../dataset/porto-dataset/images/none/none-0050.jpg 1 505,545,536,545,camara,1.0
+../dataset/porto-dataset/images/none/none-0157.jpg 1 367,436,392,499,serralves,1.0
+../dataset/porto-dataset/images/none/none-0073.jpg 1 0,214,170,320,musica,1.0
+../dataset/porto-dataset/images/none/none-0118.jpg 0
+../dataset/porto-dataset/images/none/none-0074.jpg 1 286,432,328,504,arrabida,1.0
+../dataset/porto-dataset/images/none/none-0075.jpg 1 706,466,887,566,musica,1.0
+../dataset/porto-dataset/images/none/none-0095.jpg 0
+../dataset/porto-dataset/images/none/none-0140.jpg 1 45,613,1102,1046,clerigos,1.0
+../dataset/porto-dataset/images/none/none-0096.jpg 1 115,127,218,161,arrabida,1.0
+../dataset/porto-dataset/images/none/none-0179.jpg 1 342,0,384,241,clerigos,1.0
+../dataset/porto-dataset/images/none/none-0199.jpg 0
+../dataset/porto-dataset/images/none/none-0141.jpg 1 168,115,304,136,arrabida,1.0
+../dataset/porto-dataset/images/none/none-0200.jpg 1 693,242,1000,667,clerigos,1.0
+../dataset/porto-dataset/images/none/none-0201.jpg 1 750,960,3630,1094,clerigos,1.0
+../dataset/porto-dataset/images/none/none-0119.jpg 1 663,469,765,601,arrabida,1.0
+../dataset/porto-dataset/images/none/none-0076.jpg 0
+../dataset/porto-dataset/images/none/none-0158.jpg 1 1106,278,1374,448,camara,1.0
+../dataset/porto-dataset/images/none/none-0051.jpg 0
+../dataset/porto-dataset/images/none/none-0120.jpg 1 11,254,600,349,arrabida,1.0
+../dataset/porto-dataset/images/none/none-0159.jpg 1 298,70,479,241,serralves,1.0
+../dataset/porto-dataset/images/none/none-0142.jpg 0
+../dataset/porto-dataset/images/none/none-0077.jpg 1 0,109,39,155,clerigos,1.0
+../dataset/porto-dataset/images/none/none-0097.jpg 0
+../dataset/porto-dataset/images/none/none-0180.jpg 0
+../dataset/porto-dataset/images/none/none-0222.jpg 1 896,0,933,77,arrabida,1.0
+../dataset/porto-dataset/images/none/none-0202.jpg 0
+../dataset/porto-dataset/images/none/none-0160.jpg 1 1066,783,1119,799,arrabida,1.0
+../dataset/porto-dataset/images/none/none-0143.jpg 0
+../dataset/porto-dataset/images/none/none-0181.jpg 0
+../dataset/porto-dataset/images/none/none-0052.jpg 0
+../dataset/porto-dataset/images/none/none-0223.jpg 0
+../dataset/porto-dataset/images/none/none-0098.jpg 0
+../dataset/porto-dataset/images/none/none-0144.jpg 1 80,75,210,182,musica,1.0
+../dataset/porto-dataset/images/none/none-0121.jpg 0
+../dataset/porto-dataset/images/none/none-0122.jpg 1 0,599,234,839,serralves,1.0
+../dataset/porto-dataset/images/none/none-0182.jpg 0
+../dataset/porto-dataset/images/none/none-0161.jpg 0
+../dataset/porto-dataset/images/none/none-0183.jpg 1 406,341,593,382,camara,1.0
+../dataset/porto-dataset/images/none/none-0203.jpg 1 206,412,338,449,arrabida,1.0
+../dataset/porto-dataset/images/none/none-0123.jpg 1 186,127,770,436,clerigos,1.0
+../dataset/porto-dataset/images/none/none-0184.jpg 1 574,371,673,492,arrabida,1.0
+../dataset/porto-dataset/images/none/none-0224.jpg 0
+../dataset/porto-dataset/images/none/none-0053.jpg 0
+../dataset/porto-dataset/images/none/none-0145.jpg 0
+../dataset/porto-dataset/images/none/none-0246.jpg 1 527,400,681,444,musica,1.0
+../dataset/porto-dataset/images/none/none-0099.jpg 0
+../dataset/porto-dataset/images/none/none-0100.jpg 1 354,196,414,243,arrabida,1.0
+../dataset/porto-dataset/images/none/none-0204.jpg 0
+../dataset/porto-dataset/images/none/none-0124.jpg 0
+../dataset/porto-dataset/images/none/none-0225.jpg 1 0,0,119,33,camara,1.0
+../dataset/porto-dataset/images/none/none-0205.jpg 1 1204,783,1299,905,musica,1.0
+../dataset/porto-dataset/images/none/none-0101.jpg 1 297,164,1701,500,arrabida,1.0
+../dataset/porto-dataset/images/none/none-0162.jpg 0
+../dataset/porto-dataset/images/none/none-0206.jpg 1 266,930,521,972,serralves,1.0
+../dataset/porto-dataset/images/none/none-0247.jpg 0
+../dataset/porto-dataset/images/none/none-0146.jpg 0
+../dataset/porto-dataset/images/none/none-0270.jpg 0
+../dataset/porto-dataset/images/none/none-0125.jpg 0
+../dataset/porto-dataset/images/none/none-0271.jpg 1 316,251,393,348,arrabida,1.0
+../dataset/porto-dataset/images/none/none-0185.jpg 0
+../dataset/porto-dataset/images/none/none-0248.jpg 0
+../dataset/porto-dataset/images/none/none-0249.jpg 1 0,192,99,300,camara,1.0
+../dataset/porto-dataset/images/none/none-0226.jpg 0
+../dataset/porto-dataset/images/none/none-0163.jpg 0
+../dataset/porto-dataset/images/none/none-0207.jpg 0
+../dataset/porto-dataset/images/none/none-0186.jpg 1 0,489,204,499,arrabida,1.0
+../dataset/porto-dataset/images/none/none-0208.jpg 1 80,182,183,209,clerigos,1.0
+../dataset/porto-dataset/images/none/none-0147.jpg 0
+../dataset/porto-dataset/images/none/none-0250.jpg 0
+../dataset/porto-dataset/images/none/none-0272.jpg 0
+../dataset/porto-dataset/images/none/none-0164.jpg 0
+../dataset/porto-dataset/images/none/none-0187.jpg 1 0,283,104,375,camara,1.0
+../dataset/porto-dataset/images/none/none-0188.jpg 1 244,848,734,1077,musica,1.0
+../dataset/porto-dataset/images/none/none-0251.jpg 1 70,92,103,130,camara,1.0
+../dataset/porto-dataset/images/none/none-0209.jpg 0
+../dataset/porto-dataset/images/none/none-0227.jpg 0
+../dataset/porto-dataset/images/none/none-0148.jpg 0
+../dataset/porto-dataset/images/none/none-0252.jpg 1 158,60,332,150,camara,1.0
+../dataset/porto-dataset/images/none/none-0210.jpg 1 208,176,306,201,camara,1.0
+../dataset/porto-dataset/images/none/none-0189.jpg 1 14,184,209,270,clerigos,1.0
+../dataset/porto-dataset/images/none/none-0273.jpg 0
+../dataset/porto-dataset/images/none/none-0253.jpg 0
+../dataset/porto-dataset/images/none/none-0165.jpg 0
+../dataset/porto-dataset/images/none/none-0149.jpg 0
+../dataset/porto-dataset/images/none/none-0190.jpg 0
+../dataset/porto-dataset/images/none/none-0191.jpg 1 0,323,41,521,musica,1.0
+../dataset/porto-dataset/images/none/none-0254.jpg 1 433,238,583,252,arrabida,1.0
+../dataset/porto-dataset/images/none/none-0192.jpg 1 182,122,208,147,clerigos,1.0
+../dataset/porto-dataset/images/none/none-0166.jpg 1 51,0,659,437,musica,1.0
+../dataset/porto-dataset/images/none/none-0274.jpg 1 240,208,625,379,serralves,1.0
+../dataset/porto-dataset/images/none/none-0211.jpg 0
+../dataset/porto-dataset/images/none/none-0167.jpg 1 33,479,313,570,camara,1.0
+../dataset/porto-dataset/images/none/none-0212.jpg 1 1318,553,2350,732,serralves,1.0
+../dataset/porto-dataset/images/none/none-0213.jpg 1 226,68,332,317,clerigos,1.0
+../dataset/porto-dataset/images/none/none-0228.jpg 0
+../dataset/porto-dataset/images/none/none-0275.jpg 1 547,443,742,799,arrabida,1.0
+../dataset/porto-dataset/images/none/none-0193.jpg 0
+../dataset/porto-dataset/images/none/none-0255.jpg 1 297,368,331,421,clerigos,1.0
+../dataset/porto-dataset/images/none/none-0256.jpg 1 512,52,568,286,musica,1.0
+../dataset/porto-dataset/images/none/none-0168.jpg 0
+../dataset/porto-dataset/images/none/none-0194.jpg 0
+../dataset/porto-dataset/images/none/none-0276.jpg 0
+../dataset/porto-dataset/images/none/none-0257.jpg 1 1187,1027,3617,2130,clerigos,1.0
+../dataset/porto-dataset/images/none/none-0214.jpg 0
+../dataset/porto-dataset/images/none/none-0229.jpg 0
+../dataset/porto-dataset/images/none/none-0277.jpg 1 33,337,243,427,musica,1.0
+../dataset/porto-dataset/images/none/none-0169.jpg 0
+../dataset/porto-dataset/images/none/none-0215.jpg 0
+../dataset/porto-dataset/images/none/none-0195.jpg 0
+../dataset/porto-dataset/images/none/none-0258.jpg 0
+../dataset/porto-dataset/images/none/none-0230.jpg 0
+../dataset/porto-dataset/images/none/none-0170.jpg 0
+../dataset/porto-dataset/images/none/none-0278.jpg 0
+../dataset/porto-dataset/images/none/none-0231.jpg 1 2254,2538,2312,2828,serralves,1.0
+../dataset/porto-dataset/images/none/none-0279.jpg 1 234,0,300,31,camara,1.0
+../dataset/porto-dataset/images/none/none-0259.jpg 1 2254,2538,2312,2828,serralves,1.0
+../dataset/porto-dataset/images/none/none-0196.jpg 0
+../dataset/porto-dataset/images/none/none-0232.jpg 1 303,212,543,377,clerigos,1.0
+../dataset/porto-dataset/images/none/none-0171.jpg 1 575,0,1100,420,serralves,1.0
+../dataset/porto-dataset/images/none/none-0260.jpg 1 0,17,913,419,serralves,1.0
+../dataset/porto-dataset/images/none/none-0172.jpg 1 379,361,665,451,arrabida,1.0
+../dataset/porto-dataset/images/none/none-0216.jpg 0
+../dataset/porto-dataset/images/none/none-0217.jpg 1 244,80,305,214,musica,1.0
+../dataset/porto-dataset/images/none/none-0233.jpg 1 669,483,731,807,arrabida,1.0
+../dataset/porto-dataset/images/none/none-0173.jpg 1 115,262,198,472,clerigos,1.0
+../dataset/porto-dataset/images/none/none-0280.jpg 0
+../dataset/porto-dataset/images/none/none-0197.jpg 1 0,180,24,225,arrabida,1.0
+../dataset/porto-dataset/images/none/none-0281.jpg 1 0,88,322,305,arrabida,1.0
+../dataset/porto-dataset/images/none/none-0218.jpg 1 47,330,577,522,camara,1.0
+../dataset/porto-dataset/images/none/none-0234.jpg 1 442,1370,1068,1565,arrabida,1.0
+../dataset/porto-dataset/images/none/none-0282.jpg 1 70,92,103,130,camara,1.0
+../dataset/porto-dataset/images/none/none-0219.jpg 1 399,365,598,478,camara,1.0
+../dataset/porto-dataset/images/none/none-0283.jpg 1 275,198,366,230,clerigos,1.0
+../dataset/porto-dataset/images/none/none-0284.jpg 1 370,74,427,106,camara,1.0
+../dataset/porto-dataset/images/none/none-0261.jpg 0
+../dataset/porto-dataset/images/none/none-0262.jpg 1 193,791,401,849,arrabida,1.0
+../dataset/porto-dataset/images/none/none-0235.jpg 0
+../dataset/porto-dataset/images/none/none-0285.jpg 0
+../dataset/porto-dataset/images/none/none-0286.jpg 1 658,286,811,307,musica,1.0
+../dataset/porto-dataset/images/none/none-0220.jpg 0
+../dataset/porto-dataset/images/none/none-0263.jpg 0
+../dataset/porto-dataset/images/none/none-0221.jpg 0
+../dataset/porto-dataset/images/none/none-0236.jpg 0
+../dataset/porto-dataset/images/none/none-0264.jpg 0
+../dataset/porto-dataset/images/none/none-0237.jpg 0
+../dataset/porto-dataset/images/none/none-0265.jpg 0
+../dataset/porto-dataset/images/none/none-0238.jpg 1 641,43,700,337,clerigos,1.0
+../dataset/porto-dataset/images/none/none-0239.jpg 1 767,0,960,555,arrabida,1.0
+../dataset/porto-dataset/images/none/none-0240.jpg 1 88,0,132,95,arrabida,1.0
+../dataset/porto-dataset/images/none/none-0266.jpg 0
+../dataset/porto-dataset/images/none/none-0267.jpg 1 568,298,700,358,clerigos,1.0
+../dataset/porto-dataset/images/none/none-0241.jpg 0
+../dataset/porto-dataset/images/none/none-0268.jpg 1 261,601,668,635,arrabida,1.0
+../dataset/porto-dataset/images/none/none-0242.jpg 0
+../dataset/porto-dataset/images/none/none-0243.jpg 1 143,91,568,379,serralves,1.0
+../dataset/porto-dataset/images/none/none-0269.jpg 0
+../dataset/porto-dataset/images/none/none-0244.jpg 0
+../dataset/porto-dataset/images/none/none-0245.jpg 0

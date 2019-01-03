@@ -20,6 +20,7 @@ class MonumentClassifier:
     self.annotations_path = os.path.join(database_path, 'annotations/')
     self.images_path = os.path.join(database_path, 'images/')
     self.cache_path=cache_path
+    self.DEBUG=False
     self.vocabulary_path = os.path.join(self.cache_path, 'vocabulary.npy')
     self.__setup_cache_path__()
     self.multi_thread = False
@@ -182,6 +183,25 @@ class MonumentClassifier:
     with open(path) as input:
       return json.load(input)
 
+  def classify(self, path):
+    self.lookup_data = self.load_lookup(self.lookup_cache)
+    self.counter = 0
+    self.results = []
+    self.svm = self.load_svm()
+
+    vocabulary = self.load_vocabulary()
+    sift = cv.xfeatures2d.SIFT_create()
+    flann_params = dict(algorithm=1, trees=5)
+    matcher = cv.FlannBasedMatcher(flann_params, {})
+    self.bow_extractor = cv.BOWImgDescriptorExtractor(sift, matcher)
+    self.bow_extractor.setVocabulary(vocabulary)
+    self.max_lines = 1
+
+    self.predictions = []
+    self.correct = []
+
+    self.process_test_classifier('{0} 0,0,0,0,0'.format(path))
+
   def process_test_classifier(self, line):
     print('Processing...', line)
     self.counter +=1
@@ -198,21 +218,20 @@ class MonumentClassifier:
     prediction = prediction[0][0]
     self.predictions.append(prediction)
 
-
-    print(prediction)
     tries = 40
     box = None
-    for i in range(tries):
-      rnd = random.choice(self.lookup_data[str(int(prediction))])
-      #rnd = self.lookup_data[str(int(prediction))][0]
-      print(rnd)
-      box = self.compute_box(rnd, line)
+    if prediction != 5:
+      for i in range(tries):
+        rnd = random.choice(self.lookup_data[str(int(prediction))])
+        #rnd = self.lookup_data[str(int(prediction))][0]
+        print(rnd)
+        box = self.compute_box(rnd, line)
 
-      if not box is None: break
-      
+        if not box is None: break
+
     #FAILURE
     if box is None:
-      print('\nFAILURE{0}\n'.format(class_id), flush=True)
+      #print('\nFAILURE{0}\n'.format(class_id), flush=True)
       prediction = 5
     else:
       img = cv.imread(path, cv.IMREAD_COLOR)
@@ -231,17 +250,9 @@ class MonumentClassifier:
 
     sift = cv.xfeatures2d.SIFT_create()
 
-    #l_image = cv.imread(l_path, cv.IMREAD_GRAYSCALE)
-    #t_image = cv.imread(t_path, cv.IMREAD_GRAYSCALE)
-
-    # l_image = cv.equalizeHist(l_image)
-    # t_image = cv.equalizeHist(t_image)
-
-    #l_kp, l_des, _ = self.compute_features(l_path, l_name, l_box)
     m_box = [int(x*l_factor) for x in l_box]
     l_kp, l_des = extract_features(l_path, m_box, l_image)
     t_kp, t_des = sift.detectAndCompute(t_image, None)
-    #t_kp, t_des, _ = self.compute_features(t_path, t_name, t_box)
 
     l_color_image = cv.cvtColor(l_image, cv.COLOR_GRAY2BGR)
     t_color_image = cv.cvtColor(t_image, cv.COLOR_GRAY2BGR)
@@ -264,7 +275,6 @@ class MonumentClassifier:
     matches = feature_matcher.match(l_des, t_des)
 
     matches = sorted(matches, key = lambda x: x.distance)
-    #print('Got Matches {0}'.format(matches is None), flush=True)
     if matches is None: return None
 
     tmp = []
@@ -275,10 +285,6 @@ class MonumentClassifier:
       if(m.distance < thresh):
         tmp.append(m)
 
-    # for m, n in matches:
-    #   if m.distance > 0.5 * n.distance:
-    #    tmp.append(m)
-
     matches = tmp
     if len(matches) > MIN_MATCH_COUNT:
       good = matches
@@ -288,22 +294,12 @@ class MonumentClassifier:
             [t_kp[m.trainIdx].pt for m in good]).reshape(-1, 1, 2)
       
       H, mask = cv.findHomography(pts1, pts2, cv.RANSAC, 5.0)
-      matches = mask.ravel().tolist()
-      n_inliners = np.sum(matches)
-      #print('InLiers {0}'.format(n_inliners), flush=True)
-      if n_inliners < MIN_MATCH_COUNT - 10:
+      mask_list = mask.ravel().tolist()
+      n_inliners = np.sum(mask_list)
+
+      if n_inliners < MIN_MATCH_COUNT:
         return None
       
-      draw_params = dict(matchColor = (0,255,0),
-                    singlePointColor = None,
-                    matchesMask = matches,
-                    flags = 2)
-      
-      img = cv.drawMatches(l_image, l_kp, t_image, t_kp, good, None, **draw_params)
-      #cv.namedWindow('Matches', cv.WINDOW_NORMAL)
-      #cv.imshow('Matches', img)
-      #cv.waitKey(0)
-
       if H is None:
         return None
 
@@ -321,6 +317,24 @@ class MonumentClassifier:
 
       if tmp_area < (h*w)/128:
         return None
+
+      if self.DEBUG:
+        tmp_pts = [mult(H, mult_point(x, l_factor)) for x in l_box_points]
+        p1, p2 = tmp_pts
+        p1 = [int(x) for x in p1]
+        p2 = [int(x) for x in p2]
+        tmp_pts = ((p1[0], p1[1]), (p2[0], p1[1]), (p2[0], p2[1]), (p1[0], p2[1]))
+        tmp_pts = np.array(tmp_pts)
+        t_color_image = cv.drawContours(t_color_image, [tmp_pts], -1, (0,0,255), 4)
+
+        draw_params = dict(matchColor = (0,255,0),
+                      singlePointColor = None,
+                      matchesMask = mask_list,
+                      flags = 2)
+        img = cv.drawMatches(l_color_image, l_kp, t_color_image, t_kp, good, None, **draw_params)
+        cv.namedWindow('BoW Matches', cv.WINDOW_NORMAL)
+        cv.imshow('BoW Matches', img)
+        cv.waitKey(1)
 
       r_box_points = [clamp_point(x, (0,0), (w,h)) for x in r_box_points]
 
@@ -457,7 +471,7 @@ def calculate_lines(filename):
   return sum(1 for line in open(filename))
 
 def path_to_cache(filename):
-    return re.sub(r'[\.\/\\]+', '_', filename)
+    return re.sub(r'[\.\/\\:]+', '_', filename)
 
 def extract_features(image_path, box, image=None):
 
@@ -547,7 +561,10 @@ def clamp(p, minimum, maximum):
     return maximum
   return p
 
-
+def classify(image_path, root):
+  mc = MonumentClassifier('../dataset/porto-dataset/'.format(root), '../cache/'.format(root))
+  mc.DEBUG = True
+  mc.classify(image_path)
 
 def main():
   parser = argparse.ArgumentParser(description='Descriptor Trainer and Classifier')

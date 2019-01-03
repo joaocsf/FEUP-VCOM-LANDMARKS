@@ -5,6 +5,7 @@ import matplotlib.pyplot as plt
 import pandas as pd
 from sklearn.metrics import confusion_matrix, classification_report
 import seaborn as sn
+import argparse
 
 def calc_general_stats(rows):
   y_true = []
@@ -30,13 +31,13 @@ def calc_general_stats(rows):
   print(classification_report(y_true, y_pred, target_names=target_names))
 
   # plot
-  """ cm = confusion_matrix(y_true, y_pred)
+  cm = confusion_matrix(y_true, y_pred)
   classes = ['arrabida', 'camara', 'clerigos', 'musica', 'none', 'serralves']
   df_cm = pd.DataFrame(cm, index=classes, columns=classes)
   plt.figure(figsize = (10,7))
   sn.set(font_scale=1.4)
   ax = sn.heatmap(cm, annot=True,annot_kws={"size": 16}, yticklabels=classes, xticklabels=classes,cmap='Blues', fmt='g')
-  plt.show() """
+  plt.show()
 
 def calc_avg_IoU(rows):  
   col_names =  ['id', 'class', 'IoU']
@@ -121,12 +122,22 @@ def calc_yolo_scores_stats(rows):
   print('all', df['score'].mean())
 
 def main():
-  with open('results.txt') as f:
+  ap = argparse.ArgumentParser()
+  ap.add_argument("-i", "--input", help="Path to results format file")
+
+  args = ap.parse_args()
+
+  file_path = 'results.txt'
+
+  if not args.input is None:
+    file_path = args.input
+
+  with open(file_path) as f:
     lines = f.readlines()
   
-  # calc_general_stats(lines)
+  calc_general_stats(lines)
   calc_avg_IoU(lines)
-  # calc_yolo_scores_stats(lines)
+  calc_yolo_scores_stats(lines)
 
 if __name__ == '__main__':
     main()

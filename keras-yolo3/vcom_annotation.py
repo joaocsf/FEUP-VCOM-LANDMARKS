@@ -83,5 +83,5 @@ for directory, dirnames, filenames in os.walk(annotationsPath):
 		dir = os.path.join(directory, dirname)
 		files = os.listdir(dir)
 		splitFilesForTrainAndTest([trainFile, testFile], dir, files)
-# addNoneImgsBOW(trainFile, testFile)
+addNoneImgsBOW(trainFile, testFile)
 addNoneImgsToTestFileYolo(trainFile, testFile)
